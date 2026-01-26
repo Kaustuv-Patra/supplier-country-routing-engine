@@ -1,0 +1,25 @@
+--- page 1 ---
+invoice
+invoice number: fr-47353
+invoice date: 2024-03-11
+due date: 2024-04-10
+supplier
+france trading company limited
+123 business street
+capital city
+france
+tax id (tva): 481723854648
+phone: +33 995226828
+email: billing@example.com
+bill to
+global buyer ltd.
+london
+united kingdom
+financial summary
+subtotal: € 44084.24
+tax (15%): € 6612.64
+total: € 50696.88
+payment terms: net 30
+description
+supply of industrial components as agreed.
+conformément au droit frangais

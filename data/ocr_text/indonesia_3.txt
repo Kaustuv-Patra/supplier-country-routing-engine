@@ -1,0 +1,39 @@
+
+--- PAGE 1 ---
+INVOICE
+
+Invoice Number: |D-27275
+Invoice Date: 2024-06-27
+Due Date: 2024-07-27
+
+Supplier
+
+Indonesia Trading Company Limited
+123 Business Street
+
+Capital City
+
+Indonesia
+
+Tax ID (NPWP): 390915848547
+Phone: +62 948239575
+
+Email: billing@example.com
+
+Bill To
+
+Global Buyer Ltd.
+London
+
+United Kingdom
+
+Financial Summary
+Subtotal: Rp 6386.39
+Tax (5%): Rp 319.32
+Total: Rp 6705.71
+Payment Terms: Net 30
+
+Description
+Supply of industrial components as agreed.
+
+Sesuai hukum Indonesia

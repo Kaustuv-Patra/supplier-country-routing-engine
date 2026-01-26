@@ -1,0 +1,25 @@
+--- page 1 ---
+invoice
+invoice number: pl-70515
+invoice date: 2024-03-26
+due date: 2024-04-25
+supplier
+poland trading company limited
+123 business street
+capital city
+poland
+tax id (nip): 52330127777
+phone: +48 379340713
+email: billing@example.com
+bill to
+global buyer ltd.
+london
+united kingdom
+financial summary
+subtotal: z 32494.73
+tax (10%): zz 3249.47
+total: z 35744.2
+payment terms: net 30
+description
+supply of industrial components as agreed.
+zgodnie z prawem polskim

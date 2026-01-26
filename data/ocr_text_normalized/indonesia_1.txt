@@ -1,0 +1,25 @@
+--- page 1 ---
+invoice
+invoice number: |d-94109
+invoice date: 2025-04-10
+due date: 2025-05-10
+supplier
+indonesia trading company limited
+123 business street
+capital city
+indonesia
+tax id (npwp): 655591630158
+phone: +62 122932394
+email: billing@example.com
+bill to
+global buyer ltd.
+london
+united kingdom
+financial summary
+subtotal: rp 5492.0
+tax (10%): rp 549.2
+total: rp 6041.2
+payment terms: net 30
+description
+supply of industrial components as agreed.
+sesuai hukum indonesia

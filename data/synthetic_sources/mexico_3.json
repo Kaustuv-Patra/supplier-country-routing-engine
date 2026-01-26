@@ -1,0 +1,67 @@
+{
+  "invoice_metadata": {
+    "invoice_id": "f69c3434-a883-4a61-814d-baac0dc42b69",
+    "invoice_number": "MX-40595",
+    "invoice_date": "2025-12-20",
+    "due_date": "2026-01-19",
+    "document_language": "en"
+  },
+  "supplier": {
+    "name": "Mexico Trading Co.",
+    "legal_name": "Mexico Trading Company Limited",
+    "country": "Mexico",
+    "country_code": "MX",
+    "address": {
+      "line_1": "123 Business Street",
+      "line_2": "",
+      "city": "Capital City",
+      "state_province": "",
+      "postal_code": "000000"
+    },
+    "tax_id": {
+      "value": "291740976567",
+      "type": "RFC"
+    },
+    "phone": "+52 945923902",
+    "email": "billing@example.com",
+    "website": "www.example.com"
+  },
+  "buyer": {
+    "name": "Global Buyer Ltd.",
+    "country": "United Kingdom",
+    "address": {
+      "city": "London",
+      "postal_code": "SW1A 1AA"
+    }
+  },
+  "financials": {
+    "currency_code": "MXN",
+    "currency_symbol": "$",
+    "subtotal": 43120.73,
+    "tax_rate": 0.05,
+    "tax_amount": 2156.04,
+    "total_amount": 45276.77,
+    "payment_terms": "Net 30"
+  },
+  "banking": {
+    "bank_name": "International Bank",
+    "account_number": "691593150547",
+    "swift_bic": "INTLXXXX"
+  },
+  "text_blocks": {
+    "line_items_text": "Supply of industrial components as agreed.",
+    "legal_footer_text": "Conforme a la ley mexicana",
+    "compliance_text": "Goods comply with applicable regulations."
+  },
+  "variation_controls": {
+    "omit_fields": [],
+    "ocr_noise_level": "medium",
+    "language_mix": true,
+    "ambiguous_currency": true,
+    "date_format": "YYYY-MM-DD"
+  },
+  "ground_truth": {
+    "supplier_country": "Mexico",
+    "route": "B"
+  }
+}

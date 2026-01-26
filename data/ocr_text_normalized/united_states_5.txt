@@ -1,0 +1,25 @@
+--- page 1 ---
+invoice
+invoice number: us-25860
+invoice date: 2025-03-24
+due date: 2025-04-23
+supplier
+united states trading company limited
+123 business street
+capital city
+united states
+tax id (ein): 245887882397
+phone: +1 168747287
+email: billing@example.com
+bill to
+global buyer ltd.
+london
+united kingdom
+financial summary
+subtotal: $ 45081.09
+tax (18%): $ 8114.6
+total: $ 53195.69
+payment terms: net 30
+description
+supply of industrial components as agreed.
+this invoice is governed by u.s. law

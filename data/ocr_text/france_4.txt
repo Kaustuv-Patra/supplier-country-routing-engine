@@ -1,0 +1,39 @@
+
+--- PAGE 1 ---
+INVOICE
+
+Invoice Number: FR-69929
+Invoice Date: 2025-02-09
+Due Date: 2025-03-11
+
+Supplier
+
+France Trading Company Limited
+123 Business Street
+
+Capital City
+
+France
+
+Tax ID (TVA): 8911504899
+Phone: +33 592080329
+
+Email: billing@example.com
+
+Bill To
+
+Global Buyer Ltd.
+London
+
+United Kingdom
+
+Financial Summary
+Subtotal: € 7413.04
+Tax (15%): € 1111.96
+Total: € 8525.0
+Payment Terms: Net 30
+
+Description
+Supply of industrial components as agreed.
+
+Conformément au droit frangais

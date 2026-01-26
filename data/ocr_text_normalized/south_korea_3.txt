@@ -1,0 +1,24 @@
+--- page 1 ---
+invoice
+invoice number: kr-68153
+invoice date: 2025-10-10
+due date: 2025-11-09
+supplier
+south korea trading company limited
+123 business street
+capital city
+south korea
+tax id (business registration number): 760933742690
+phone: +82 421549249
+email: billing@example.com
+bill to
+global buyer ltd.
+london
+united kingdom
+financial summary
+subtotal: 35490.65
+tax (5%): 1774.53
+total: 37265.18
+payment terms: net 30
+description
+supply of industrial components as agreed.

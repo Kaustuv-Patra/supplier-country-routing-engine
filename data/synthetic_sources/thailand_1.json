@@ -1,0 +1,69 @@
+{
+  "invoice_metadata": {
+    "invoice_id": "7fa13e49-d91d-43ba-9556-951925b67166",
+    "invoice_number": "TH-44663",
+    "invoice_date": "2024-04-02",
+    "due_date": "2024-05-02",
+    "document_language": "en"
+  },
+  "supplier": {
+    "name": "Thailand Trading Co.",
+    "legal_name": "Thailand Trading Company Limited",
+    "country": "Thailand",
+    "country_code": "TH",
+    "address": {
+      "line_1": "123 Business Street",
+      "line_2": "",
+      "city": "Capital City",
+      "state_province": "",
+      "postal_code": "000000"
+    },
+    "tax_id": {
+      "value": "135458546713",
+      "type": "Tax ID"
+    },
+    "phone": "+66 588322781",
+    "email": "billing@example.com",
+    "website": "www.example.com"
+  },
+  "buyer": {
+    "name": "Global Buyer Ltd.",
+    "country": "United Kingdom",
+    "address": {
+      "city": "London",
+      "postal_code": "SW1A 1AA"
+    }
+  },
+  "financials": {
+    "currency_code": "THB",
+    "currency_symbol": "฿",
+    "subtotal": 39743.42,
+    "tax_rate": 0.05,
+    "tax_amount": 1987.17,
+    "total_amount": 41730.59,
+    "payment_terms": "Net 30"
+  },
+  "banking": {
+    "bank_name": "International Bank",
+    "account_number": "741317438269",
+    "swift_bic": "INTLXXXX"
+  },
+  "text_blocks": {
+    "line_items_text": "Supply of industrial components as agreed.",
+    "legal_footer_text": "ตามกฎหมายไทย",
+    "compliance_text": "Goods comply with applicable regulations."
+  },
+  "variation_controls": {
+    "omit_fields": [
+      "supplier.phone"
+    ],
+    "ocr_noise_level": "medium",
+    "language_mix": false,
+    "ambiguous_currency": true,
+    "date_format": "YYYY-MM-DD"
+  },
+  "ground_truth": {
+    "supplier_country": "Thailand",
+    "route": "B"
+  }
+}

@@ -1,0 +1,39 @@
+
+--- PAGE 1 ---
+INVOICE
+
+Invoice Number: ES-86019
+Invoice Date: 2024-11-07
+Due Date: 2024-12-07
+
+Supplier
+
+Spain Trading Company Limited
+123 Business Street
+
+Capital City
+
+Spain
+
+Tax ID (CIF): 719875130020
+Phone: +34 446012478
+
+Email: billing@example.com
+
+Bill To
+
+Global Buyer Ltd.
+London
+
+United Kingdom
+
+Financial Summary
+Subtotal: € 15058.77
+Tax (18%): € 2710.58
+Total: € 17769.35
+Payment Terms: Net 30
+
+Description
+Supply of industrial components as agreed.
+
+Conforme a la ley espafola

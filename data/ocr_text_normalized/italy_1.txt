@@ -1,0 +1,25 @@
+--- page 1 ---
+invoice
+invoice number: it-36158
+invoice date: 2024-02-09
+due date: 2024-03-10
+supplier
+italy trading company limited
+123 business street
+capital city
+italy
+tax id (partita iva): 384239076692
+phone: +39 427696198
+email: billing@example.com
+bill to
+global buyer ltd.
+london
+united kingdom
+financial summary
+subtotal: € 43071.07
+tax (10%): € 4307.11
+total: € 47378.18
+payment terms: net 30
+description
+supply of industrial components as agreed.
+ai sensi della legge italiana

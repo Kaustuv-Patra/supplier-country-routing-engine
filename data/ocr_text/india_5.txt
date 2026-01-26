@@ -1,0 +1,40 @@
+
+--- PAGE 1 ---
+INVOICE
+
+Invoice Number: IN-23238
+Invoice Date: 2024-10-23
+Due Date: 2024-11-22
+
+Supplier
+
+India Trading Company Limited
+123 Business Street
+
+Capital City
+
+India
+
+Tax ID (GSTIN): 306585307735
+Phone: +91 586845604
+
+Email: billing@example.com
+
+Bill To
+
+Global Buyer Ltd.
+London
+
+United Kingdom
+
+Financial Summary
+Subtotal: 49275.85
+Tax (10%): 4927.59
+Total: 54203.44
+
+Payment Terms: Net 30
+
+Description
+Supply of industrial components as agreed.
+
+Subject to Indian Jurisdiction

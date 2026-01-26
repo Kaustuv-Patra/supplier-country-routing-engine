@@ -1,0 +1,38 @@
+
+--- PAGE 1 ---
+INVOICE
+
+Invoice Number: CN-89840
+Invoice Date: 2025-12-19
+Due Date: 2026-01-18
+
+Supplier
+
+China Trading Company Limited
+
+123 Business Street
+
+Capital City
+
+China
+
+Tax ID (Unified Social Credit Code): 187420804707
+Phone: +86 673528321
+
+Email: billing@example.com
+
+Bill To
+
+Global Buyer Ltd.
+London
+
+United Kingdom
+
+Financial Summary
+Subtotal: ¥ 46896.07
+Tax (5%): ¥ 2344.8
+Total: ¥ 49240.87
+Payment Terms: Net 30
+
+Description
+Supply of industrial components as agreed.

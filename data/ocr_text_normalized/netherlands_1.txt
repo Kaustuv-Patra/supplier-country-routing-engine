@@ -1,0 +1,25 @@
+--- page 1 ---
+invoice
+invoice number: nl-78327
+invoice date: 2024-09-22
+due date: 2024-10-22
+supplier
+netherlands trading company limited
+123 business street
+capital city
+netherlands
+tax id (btw): 689286095704
+phone: +31 356888294
+email: billing@example.com
+bill to
+global buyer ltd.
+london
+united kingdom
+financial summary
+subtotal: € 37837.06
+tax (15%): € 5675.56
+total: € 43512.62
+payment terms: net 30
+description
+supply of industrial components as agreed.
+nederlands recht

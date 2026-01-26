@@ -1,0 +1,25 @@
+--- page 1 ---
+invoice
+invoice number: nl-97670
+invoice date: 2025-05-12
+due date: 2025-06-11
+supplier
+netherlands trading company limited
+123 business street
+capital city
+netherlands
+tax id (btw): 879100220563
+phone: +31 534131719
+email: billing@example.com
+bill to
+global buyer ltd.
+london
+united kingdom
+financial summary
+subtotal: € 2422.22
+tax (15%): € 363.33
+total: € 2785.55
+payment terms: net 30
+description
+supply of industrial components as agreed.
+nederlands recht

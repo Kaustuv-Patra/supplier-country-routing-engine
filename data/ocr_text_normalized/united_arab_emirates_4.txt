@@ -1,0 +1,25 @@
+--- page 1 ---
+invoice
+invoice number: ae-96761
+invoice date: 2025-11-21
+due date: 2025-12-21
+supplier
+united arab emirates trading company limited
+123 business street
+capital city
+united arab emirates
+tax id (trn): 534407074282
+phone: +971 751842899
+email: billing@example.com
+bill to
+global buyer ltd.
+london
+united kingdom
+financial summary
+subtotal: . 4997.49
+tax (18%): . 899.55
+total: . 5897.04
+payment terms: net 30
+description
+supply of industrial components as agreed.
+subject to uae law

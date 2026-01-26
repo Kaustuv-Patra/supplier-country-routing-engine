@@ -1,0 +1,67 @@
+{
+  "invoice_metadata": {
+    "invoice_id": "5fabf8c7-3bca-44f9-936d-d4fae8838038",
+    "invoice_number": "BR-26551",
+    "invoice_date": "2024-02-16",
+    "due_date": "2024-03-17",
+    "document_language": "en"
+  },
+  "supplier": {
+    "name": "Brazil Trading Co.",
+    "legal_name": "Brazil Trading Company Limited",
+    "country": "Brazil",
+    "country_code": "BR",
+    "address": {
+      "line_1": "123 Business Street",
+      "line_2": "",
+      "city": "Capital City",
+      "state_province": "",
+      "postal_code": "000000"
+    },
+    "tax_id": {
+      "value": "956232369014",
+      "type": "CNPJ"
+    },
+    "phone": "+55 908304440",
+    "email": "billing@example.com",
+    "website": "www.example.com"
+  },
+  "buyer": {
+    "name": "Global Buyer Ltd.",
+    "country": "United Kingdom",
+    "address": {
+      "city": "London",
+      "postal_code": "SW1A 1AA"
+    }
+  },
+  "financials": {
+    "currency_code": "BRL",
+    "currency_symbol": "R$",
+    "subtotal": 48740.45,
+    "tax_rate": 0.15,
+    "tax_amount": 7311.07,
+    "total_amount": 56051.52,
+    "payment_terms": "Net 30"
+  },
+  "banking": {
+    "bank_name": "International Bank",
+    "account_number": "114777457648",
+    "swift_bic": "INTLXXXX"
+  },
+  "text_blocks": {
+    "line_items_text": "Supply of industrial components as agreed.",
+    "legal_footer_text": "Conforme legislação brasileira",
+    "compliance_text": "Goods comply with applicable regulations."
+  },
+  "variation_controls": {
+    "omit_fields": [],
+    "ocr_noise_level": "high",
+    "language_mix": false,
+    "ambiguous_currency": false,
+    "date_format": "DD-MM-YYYY"
+  },
+  "ground_truth": {
+    "supplier_country": "Brazil",
+    "route": "B"
+  }
+}

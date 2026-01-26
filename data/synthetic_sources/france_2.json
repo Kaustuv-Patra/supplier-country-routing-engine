@@ -1,0 +1,67 @@
+{
+  "invoice_metadata": {
+    "invoice_id": "563118cb-c331-412a-9dd3-f6ec2a166da2",
+    "invoice_number": "FR-17455",
+    "invoice_date": "2025-08-21",
+    "due_date": "2025-09-20",
+    "document_language": "en"
+  },
+  "supplier": {
+    "name": "France Trading Co.",
+    "legal_name": "France Trading Company Limited",
+    "country": "France",
+    "country_code": "FR",
+    "address": {
+      "line_1": "123 Business Street",
+      "line_2": "",
+      "city": "Capital City",
+      "state_province": "",
+      "postal_code": "000000"
+    },
+    "tax_id": {
+      "value": "562482262434",
+      "type": "TVA"
+    },
+    "phone": "+33 186019028",
+    "email": "billing@example.com",
+    "website": "www.example.com"
+  },
+  "buyer": {
+    "name": "Global Buyer Ltd.",
+    "country": "United Kingdom",
+    "address": {
+      "city": "London",
+      "postal_code": "SW1A 1AA"
+    }
+  },
+  "financials": {
+    "currency_code": "EUR",
+    "currency_symbol": "€",
+    "subtotal": 24362.64,
+    "tax_rate": 0.1,
+    "tax_amount": 2436.26,
+    "total_amount": 26798.9,
+    "payment_terms": "Net 30"
+  },
+  "banking": {
+    "bank_name": "International Bank",
+    "account_number": "206519951312",
+    "swift_bic": "INTLXXXX"
+  },
+  "text_blocks": {
+    "line_items_text": "Supply of industrial components as agreed.",
+    "legal_footer_text": "Conformément au droit français",
+    "compliance_text": "Goods comply with applicable regulations."
+  },
+  "variation_controls": {
+    "omit_fields": [],
+    "ocr_noise_level": "high",
+    "language_mix": true,
+    "ambiguous_currency": true,
+    "date_format": "DD-MM-YYYY"
+  },
+  "ground_truth": {
+    "supplier_country": "France",
+    "route": "B"
+  }
+}

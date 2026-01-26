@@ -1,0 +1,25 @@
+--- page 1 ---
+invoice
+invoice number: it-82667
+invoice date: 2024-11-30
+due date: 2024-12-30
+supplier
+italy trading company limited
+123 business street
+capital city
+italy
+tax id (partita iva): 211010094454
+phone: +39 551450815
+email: billing@example.com
+bill to
+global buyer ltd.
+london
+united kingdom
+financial summary
+subtotal: € 20717.62
+tax (15%): € 3107.64
+total: € 23825.26
+payment terms: net 30
+description
+supply of industrial components as agreed.
+ai sensi della legge italiana

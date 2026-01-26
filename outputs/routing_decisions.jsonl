@@ -1,0 +1,111 @@
+{"invoice_id": "australia_1", "predicted_country": "Australia", "confidence": 0.0853, "region": "APAC", "primary_transport": "SEA", "secondary_transport": "AIR", "routing_code": "APAC-SEA"}
+{"invoice_id": "australia_2", "predicted_country": "Australia", "confidence": 0.0853, "region": "APAC", "primary_transport": "SEA", "secondary_transport": "AIR", "routing_code": "APAC-SEA"}
+{"invoice_id": "australia_3", "predicted_country": "Australia", "confidence": 0.0852, "region": "APAC", "primary_transport": "SEA", "secondary_transport": "AIR", "routing_code": "APAC-SEA"}
+{"invoice_id": "australia_4", "predicted_country": "Australia", "confidence": 0.0854, "region": "APAC", "primary_transport": "SEA", "secondary_transport": "AIR", "routing_code": "APAC-SEA"}
+{"invoice_id": "australia_5", "predicted_country": "Australia", "confidence": 0.0852, "region": "APAC", "primary_transport": "SEA", "secondary_transport": "AIR", "routing_code": "APAC-SEA"}
+{"invoice_id": "brazil_1", "predicted_country": "Brazil", "confidence": 0.0653, "region": "AMER", "primary_transport": "ROAD", "secondary_transport": "RAIL", "routing_code": "AMER-ROAD"}
+{"invoice_id": "brazil_2", "predicted_country": "Brazil", "confidence": 0.0654, "region": "AMER", "primary_transport": "ROAD", "secondary_transport": "RAIL", "routing_code": "AMER-ROAD"}
+{"invoice_id": "brazil_3", "predicted_country": "Brazil", "confidence": 0.0654, "region": "AMER", "primary_transport": "ROAD", "secondary_transport": "RAIL", "routing_code": "AMER-ROAD"}
+{"invoice_id": "brazil_4", "predicted_country": "Brazil", "confidence": 0.0653, "region": "AMER", "primary_transport": "ROAD", "secondary_transport": "RAIL", "routing_code": "AMER-ROAD"}
+{"invoice_id": "brazil_5", "predicted_country": "Brazil", "confidence": 0.0653, "region": "AMER", "primary_transport": "ROAD", "secondary_transport": "RAIL", "routing_code": "AMER-ROAD"}
+{"invoice_id": "canada_1", "predicted_country": "Canada", "confidence": 0.0903, "region": "AMER", "primary_transport": "ROAD", "secondary_transport": "RAIL", "routing_code": "AMER-ROAD"}
+{"invoice_id": "canada_2", "predicted_country": "Canada", "confidence": 0.0905, "region": "AMER", "primary_transport": "ROAD", "secondary_transport": "RAIL", "routing_code": "AMER-ROAD"}
+{"invoice_id": "canada_3", "predicted_country": "Canada", "confidence": 0.0904, "region": "AMER", "primary_transport": "ROAD", "secondary_transport": "RAIL", "routing_code": "AMER-ROAD"}
+{"invoice_id": "canada_4", "predicted_country": "Canada", "confidence": 0.0904, "region": "AMER", "primary_transport": "ROAD", "secondary_transport": "RAIL", "routing_code": "AMER-ROAD"}
+{"invoice_id": "canada_5", "predicted_country": "Canada", "confidence": 0.0905, "region": "AMER", "primary_transport": "ROAD", "secondary_transport": "RAIL", "routing_code": "AMER-ROAD"}
+{"invoice_id": "china_1", "predicted_country": "China", "confidence": 0.0711, "region": "APAC", "primary_transport": "SEA", "secondary_transport": "AIR", "routing_code": "APAC-SEA"}
+{"invoice_id": "china_2", "predicted_country": "China", "confidence": 0.0712, "region": "APAC", "primary_transport": "SEA", "secondary_transport": "AIR", "routing_code": "APAC-SEA"}
+{"invoice_id": "china_3", "predicted_country": "China", "confidence": 0.0711, "region": "APAC", "primary_transport": "SEA", "secondary_transport": "AIR", "routing_code": "APAC-SEA"}
+{"invoice_id": "china_4", "predicted_country": "China", "confidence": 0.0714, "region": "APAC", "primary_transport": "SEA", "secondary_transport": "AIR", "routing_code": "APAC-SEA"}
+{"invoice_id": "china_5", "predicted_country": "China", "confidence": 0.0709, "region": "APAC", "primary_transport": "SEA", "secondary_transport": "AIR", "routing_code": "APAC-SEA"}
+{"invoice_id": "czech_republic_1", "predicted_country": "Czech Republic", "confidence": 0.0869, "region": "EMEA", "primary_transport": "ROAD_RAIL", "secondary_transport": "SEA", "routing_code": "EMEA-ROAD_RAIL"}
+{"invoice_id": "czech_republic_2", "predicted_country": "Czech Republic", "confidence": 0.087, "region": "EMEA", "primary_transport": "ROAD_RAIL", "secondary_transport": "SEA", "routing_code": "EMEA-ROAD_RAIL"}
+{"invoice_id": "czech_republic_3", "predicted_country": "Czech Republic", "confidence": 0.0871, "region": "EMEA", "primary_transport": "ROAD_RAIL", "secondary_transport": "SEA", "routing_code": "EMEA-ROAD_RAIL"}
+{"invoice_id": "czech_republic_4", "predicted_country": "Czech Republic", "confidence": 0.0872, "region": "EMEA", "primary_transport": "ROAD_RAIL", "secondary_transport": "SEA", "routing_code": "EMEA-ROAD_RAIL"}
+{"invoice_id": "czech_republic_5", "predicted_country": "Czech Republic", "confidence": 0.0869, "region": "EMEA", "primary_transport": "ROAD_RAIL", "secondary_transport": "SEA", "routing_code": "EMEA-ROAD_RAIL"}
+{"invoice_id": "france_1", "predicted_country": "France", "confidence": 0.0802, "region": "EMEA", "primary_transport": "ROAD_RAIL", "secondary_transport": "SEA", "routing_code": "EMEA-ROAD_RAIL"}
+{"invoice_id": "france_2", "predicted_country": "France", "confidence": 0.0798, "region": "EMEA", "primary_transport": "ROAD_RAIL", "secondary_transport": "SEA", "routing_code": "EMEA-ROAD_RAIL"}
+{"invoice_id": "france_3", "predicted_country": "France", "confidence": 0.08, "region": "EMEA", "primary_transport": "ROAD_RAIL", "secondary_transport": "SEA", "routing_code": "EMEA-ROAD_RAIL"}
+{"invoice_id": "france_4", "predicted_country": "France", "confidence": 0.0803, "region": "EMEA", "primary_transport": "ROAD_RAIL", "secondary_transport": "SEA", "routing_code": "EMEA-ROAD_RAIL"}
+{"invoice_id": "france_5", "predicted_country": "France", "confidence": 0.0797, "region": "EMEA", "primary_transport": "ROAD_RAIL", "secondary_transport": "SEA", "routing_code": "EMEA-ROAD_RAIL"}
+{"invoice_id": "germany_1", "predicted_country": "Germany", "confidence": 0.0868, "region": "EMEA", "primary_transport": "ROAD_RAIL", "secondary_transport": "SEA", "routing_code": "EMEA-ROAD_RAIL"}
+{"invoice_id": "germany_2", "predicted_country": "Germany", "confidence": 0.0864, "region": "EMEA", "primary_transport": "ROAD_RAIL", "secondary_transport": "SEA", "routing_code": "EMEA-ROAD_RAIL"}
+{"invoice_id": "germany_3", "predicted_country": "Germany", "confidence": 0.0866, "region": "EMEA", "primary_transport": "ROAD_RAIL", "secondary_transport": "SEA", "routing_code": "EMEA-ROAD_RAIL"}
+{"invoice_id": "germany_4", "predicted_country": "Germany", "confidence": 0.0859, "region": "EMEA", "primary_transport": "ROAD_RAIL", "secondary_transport": "SEA", "routing_code": "EMEA-ROAD_RAIL"}
+{"invoice_id": "germany_5", "predicted_country": "Germany", "confidence": 0.0863, "region": "EMEA", "primary_transport": "ROAD_RAIL", "secondary_transport": "SEA", "routing_code": "EMEA-ROAD_RAIL"}
+{"invoice_id": "india_1", "predicted_country": "India", "confidence": 0.088, "region": "APAC", "primary_transport": "SEA", "secondary_transport": "AIR", "routing_code": "APAC-SEA"}
+{"invoice_id": "india_2", "predicted_country": "India", "confidence": 0.0884, "region": "APAC", "primary_transport": "SEA", "secondary_transport": "AIR", "routing_code": "APAC-SEA"}
+{"invoice_id": "india_3", "predicted_country": "India", "confidence": 0.0881, "region": "APAC", "primary_transport": "SEA", "secondary_transport": "AIR", "routing_code": "APAC-SEA"}
+{"invoice_id": "india_4", "predicted_country": "India", "confidence": 0.0879, "region": "APAC", "primary_transport": "SEA", "secondary_transport": "AIR", "routing_code": "APAC-SEA"}
+{"invoice_id": "india_5", "predicted_country": "India", "confidence": 0.0877, "region": "APAC", "primary_transport": "SEA", "secondary_transport": "AIR", "routing_code": "APAC-SEA"}
+{"invoice_id": "indonesia_1", "predicted_country": "Indonesia", "confidence": 0.0733, "region": "APAC", "primary_transport": "SEA", "secondary_transport": "AIR", "routing_code": "APAC-SEA"}
+{"invoice_id": "indonesia_2", "predicted_country": "Indonesia", "confidence": 0.0737, "region": "APAC", "primary_transport": "SEA", "secondary_transport": "AIR", "routing_code": "APAC-SEA"}
+{"invoice_id": "indonesia_3", "predicted_country": "Indonesia", "confidence": 0.0734, "region": "APAC", "primary_transport": "SEA", "secondary_transport": "AIR", "routing_code": "APAC-SEA"}
+{"invoice_id": "indonesia_4", "predicted_country": "Indonesia", "confidence": 0.0732, "region": "APAC", "primary_transport": "SEA", "secondary_transport": "AIR", "routing_code": "APAC-SEA"}
+{"invoice_id": "indonesia_5", "predicted_country": "Indonesia", "confidence": 0.0734, "region": "APAC", "primary_transport": "SEA", "secondary_transport": "AIR", "routing_code": "APAC-SEA"}
+{"invoice_id": "italy_1", "predicted_country": "Italy", "confidence": 0.0841, "region": "EMEA", "primary_transport": "ROAD_RAIL", "secondary_transport": "SEA", "routing_code": "EMEA-ROAD_RAIL"}
+{"invoice_id": "italy_2", "predicted_country": "Italy", "confidence": 0.0841, "region": "EMEA", "primary_transport": "ROAD_RAIL", "secondary_transport": "SEA", "routing_code": "EMEA-ROAD_RAIL"}
+{"invoice_id": "italy_3", "predicted_country": "Italy", "confidence": 0.084, "region": "EMEA", "primary_transport": "ROAD_RAIL", "secondary_transport": "SEA", "routing_code": "EMEA-ROAD_RAIL"}
+{"invoice_id": "italy_4", "predicted_country": "Italy", "confidence": 0.0841, "region": "EMEA", "primary_transport": "ROAD_RAIL", "secondary_transport": "SEA", "routing_code": "EMEA-ROAD_RAIL"}
+{"invoice_id": "italy_5", "predicted_country": "Italy", "confidence": 0.084, "region": "EMEA", "primary_transport": "ROAD_RAIL", "secondary_transport": "SEA", "routing_code": "EMEA-ROAD_RAIL"}
+{"invoice_id": "japan_1", "predicted_country": "Japan", "confidence": 0.097, "region": "APAC", "primary_transport": "SEA", "secondary_transport": "AIR", "routing_code": "APAC-SEA"}
+{"invoice_id": "japan_2", "predicted_country": "Japan", "confidence": 0.0972, "region": "APAC", "primary_transport": "SEA", "secondary_transport": "AIR", "routing_code": "APAC-SEA"}
+{"invoice_id": "japan_3", "predicted_country": "Japan", "confidence": 0.0974, "region": "APAC", "primary_transport": "SEA", "secondary_transport": "AIR", "routing_code": "APAC-SEA"}
+{"invoice_id": "japan_4", "predicted_country": "Japan", "confidence": 0.0967, "region": "APAC", "primary_transport": "SEA", "secondary_transport": "AIR", "routing_code": "APAC-SEA"}
+{"invoice_id": "japan_5", "predicted_country": "Japan", "confidence": 0.0967, "region": "APAC", "primary_transport": "SEA", "secondary_transport": "AIR", "routing_code": "APAC-SEA"}
+{"invoice_id": "mexico_1", "predicted_country": "Mexico", "confidence": 0.0796, "region": "AMER", "primary_transport": "ROAD", "secondary_transport": "RAIL", "routing_code": "AMER-ROAD"}
+{"invoice_id": "mexico_2", "predicted_country": "Mexico", "confidence": 0.0795, "region": "AMER", "primary_transport": "ROAD", "secondary_transport": "RAIL", "routing_code": "AMER-ROAD"}
+{"invoice_id": "mexico_3", "predicted_country": "Mexico", "confidence": 0.0789, "region": "AMER", "primary_transport": "ROAD", "secondary_transport": "RAIL", "routing_code": "AMER-ROAD"}
+{"invoice_id": "mexico_4", "predicted_country": "Mexico", "confidence": 0.0794, "region": "AMER", "primary_transport": "ROAD", "secondary_transport": "RAIL", "routing_code": "AMER-ROAD"}
+{"invoice_id": "mexico_5", "predicted_country": "Mexico", "confidence": 0.0792, "region": "AMER", "primary_transport": "ROAD", "secondary_transport": "RAIL", "routing_code": "AMER-ROAD"}
+{"invoice_id": "netherlands_1", "predicted_country": "Netherlands", "confidence": 0.0653, "region": "EMEA", "primary_transport": "ROAD_RAIL", "secondary_transport": "SEA", "routing_code": "EMEA-ROAD_RAIL"}
+{"invoice_id": "netherlands_2", "predicted_country": "Netherlands", "confidence": 0.0654, "region": "EMEA", "primary_transport": "ROAD_RAIL", "secondary_transport": "SEA", "routing_code": "EMEA-ROAD_RAIL"}
+{"invoice_id": "netherlands_3", "predicted_country": "Netherlands", "confidence": 0.0656, "region": "EMEA", "primary_transport": "ROAD_RAIL", "secondary_transport": "SEA", "routing_code": "EMEA-ROAD_RAIL"}
+{"invoice_id": "netherlands_4", "predicted_country": "Netherlands", "confidence": 0.0657, "region": "EMEA", "primary_transport": "ROAD_RAIL", "secondary_transport": "SEA", "routing_code": "EMEA-ROAD_RAIL"}
+{"invoice_id": "netherlands_5", "predicted_country": "Netherlands", "confidence": 0.0655, "region": "EMEA", "primary_transport": "ROAD_RAIL", "secondary_transport": "SEA", "routing_code": "EMEA-ROAD_RAIL"}
+{"invoice_id": "poland_1", "predicted_country": "Poland", "confidence": 0.0911, "region": "EMEA", "primary_transport": "ROAD_RAIL", "secondary_transport": "SEA", "routing_code": "EMEA-ROAD_RAIL"}
+{"invoice_id": "poland_2", "predicted_country": "Poland", "confidence": 0.0911, "region": "EMEA", "primary_transport": "ROAD_RAIL", "secondary_transport": "SEA", "routing_code": "EMEA-ROAD_RAIL"}
+{"invoice_id": "poland_3", "predicted_country": "Poland", "confidence": 0.0913, "region": "EMEA", "primary_transport": "ROAD_RAIL", "secondary_transport": "SEA", "routing_code": "EMEA-ROAD_RAIL"}
+{"invoice_id": "poland_4", "predicted_country": "Poland", "confidence": 0.0912, "region": "EMEA", "primary_transport": "ROAD_RAIL", "secondary_transport": "SEA", "routing_code": "EMEA-ROAD_RAIL"}
+{"invoice_id": "poland_5", "predicted_country": "Poland", "confidence": 0.0913, "region": "EMEA", "primary_transport": "ROAD_RAIL", "secondary_transport": "SEA", "routing_code": "EMEA-ROAD_RAIL"}
+{"invoice_id": "saudi_arabia_1", "predicted_country": "Saudi Arabia", "confidence": 0.0679, "region": "EMEA", "primary_transport": "ROAD_RAIL", "secondary_transport": "SEA", "routing_code": "EMEA-ROAD_RAIL"}
+{"invoice_id": "saudi_arabia_2", "predicted_country": "Saudi Arabia", "confidence": 0.0678, "region": "EMEA", "primary_transport": "ROAD_RAIL", "secondary_transport": "SEA", "routing_code": "EMEA-ROAD_RAIL"}
+{"invoice_id": "saudi_arabia_3", "predicted_country": "Saudi Arabia", "confidence": 0.0681, "region": "EMEA", "primary_transport": "ROAD_RAIL", "secondary_transport": "SEA", "routing_code": "EMEA-ROAD_RAIL"}
+{"invoice_id": "saudi_arabia_4", "predicted_country": "Saudi Arabia", "confidence": 0.0679, "region": "EMEA", "primary_transport": "ROAD_RAIL", "secondary_transport": "SEA", "routing_code": "EMEA-ROAD_RAIL"}
+{"invoice_id": "saudi_arabia_5", "predicted_country": "Saudi Arabia", "confidence": 0.0678, "region": "EMEA", "primary_transport": "ROAD_RAIL", "secondary_transport": "SEA", "routing_code": "EMEA-ROAD_RAIL"}
+{"invoice_id": "south_korea_1", "predicted_country": "South Korea", "confidence": 0.0738, "region": "APAC", "primary_transport": "SEA", "secondary_transport": "AIR", "routing_code": "APAC-SEA"}
+{"invoice_id": "south_korea_2", "predicted_country": "South Korea", "confidence": 0.074, "region": "APAC", "primary_transport": "SEA", "secondary_transport": "AIR", "routing_code": "APAC-SEA"}
+{"invoice_id": "south_korea_3", "predicted_country": "South Korea", "confidence": 0.0739, "region": "APAC", "primary_transport": "SEA", "secondary_transport": "AIR", "routing_code": "APAC-SEA"}
+{"invoice_id": "south_korea_4", "predicted_country": "South Korea", "confidence": 0.0738, "region": "APAC", "primary_transport": "SEA", "secondary_transport": "AIR", "routing_code": "APAC-SEA"}
+{"invoice_id": "south_korea_5", "predicted_country": "South Korea", "confidence": 0.0737, "region": "APAC", "primary_transport": "SEA", "secondary_transport": "AIR", "routing_code": "APAC-SEA"}
+{"invoice_id": "spain_1", "predicted_country": "Spain", "confidence": 0.0761, "region": "EMEA", "primary_transport": "ROAD_RAIL", "secondary_transport": "SEA", "routing_code": "EMEA-ROAD_RAIL"}
+{"invoice_id": "spain_2", "predicted_country": "Spain", "confidence": 0.0759, "region": "EMEA", "primary_transport": "ROAD_RAIL", "secondary_transport": "SEA", "routing_code": "EMEA-ROAD_RAIL"}
+{"invoice_id": "spain_3", "predicted_country": "Spain", "confidence": 0.0758, "region": "EMEA", "primary_transport": "ROAD_RAIL", "secondary_transport": "SEA", "routing_code": "EMEA-ROAD_RAIL"}
+{"invoice_id": "spain_4", "predicted_country": "Spain", "confidence": 0.0759, "region": "EMEA", "primary_transport": "ROAD_RAIL", "secondary_transport": "SEA", "routing_code": "EMEA-ROAD_RAIL"}
+{"invoice_id": "spain_5", "predicted_country": "Spain", "confidence": 0.0761, "region": "EMEA", "primary_transport": "ROAD_RAIL", "secondary_transport": "SEA", "routing_code": "EMEA-ROAD_RAIL"}
+{"invoice_id": "thailand_1", "predicted_country": "Vietnam", "confidence": 0.0827, "region": "APAC", "primary_transport": "SEA", "secondary_transport": "AIR", "routing_code": "APAC-SEA"}
+{"invoice_id": "thailand_2", "predicted_country": "Vietnam", "confidence": 0.083, "region": "APAC", "primary_transport": "SEA", "secondary_transport": "AIR", "routing_code": "APAC-SEA"}
+{"invoice_id": "thailand_3", "predicted_country": "Vietnam", "confidence": 0.0833, "region": "APAC", "primary_transport": "SEA", "secondary_transport": "AIR", "routing_code": "APAC-SEA"}
+{"invoice_id": "thailand_4", "predicted_country": "Vietnam", "confidence": 0.0832, "region": "APAC", "primary_transport": "SEA", "secondary_transport": "AIR", "routing_code": "APAC-SEA"}
+{"invoice_id": "thailand_5", "predicted_country": "Vietnam", "confidence": 0.0829, "region": "APAC", "primary_transport": "SEA", "secondary_transport": "AIR", "routing_code": "APAC-SEA"}
+{"invoice_id": "united_arab_emirates_1", "predicted_country": "United Arab Emirates", "confidence": 0.0793, "region": "EMEA", "primary_transport": "ROAD_RAIL", "secondary_transport": "SEA", "routing_code": "EMEA-ROAD_RAIL"}
+{"invoice_id": "united_arab_emirates_2", "predicted_country": "United Arab Emirates", "confidence": 0.0792, "region": "EMEA", "primary_transport": "ROAD_RAIL", "secondary_transport": "SEA", "routing_code": "EMEA-ROAD_RAIL"}
+{"invoice_id": "united_arab_emirates_3", "predicted_country": "United Arab Emirates", "confidence": 0.079, "region": "EMEA", "primary_transport": "ROAD_RAIL", "secondary_transport": "SEA", "routing_code": "EMEA-ROAD_RAIL"}
+{"invoice_id": "united_arab_emirates_4", "predicted_country": "United Arab Emirates", "confidence": 0.0795, "region": "EMEA", "primary_transport": "ROAD_RAIL", "secondary_transport": "SEA", "routing_code": "EMEA-ROAD_RAIL"}
+{"invoice_id": "united_arab_emirates_5", "predicted_country": "United Arab Emirates", "confidence": 0.0795, "region": "EMEA", "primary_transport": "ROAD_RAIL", "secondary_transport": "SEA", "routing_code": "EMEA-ROAD_RAIL"}
+{"invoice_id": "united_kingdom_1", "predicted_country": "United Kingdom", "confidence": 0.0784, "region": "EMEA", "primary_transport": "ROAD_RAIL", "secondary_transport": "SEA", "routing_code": "EMEA-ROAD_RAIL"}
+{"invoice_id": "united_kingdom_2", "predicted_country": "United Kingdom", "confidence": 0.0784, "region": "EMEA", "primary_transport": "ROAD_RAIL", "secondary_transport": "SEA", "routing_code": "EMEA-ROAD_RAIL"}
+{"invoice_id": "united_kingdom_3", "predicted_country": "United Kingdom", "confidence": 0.0784, "region": "EMEA", "primary_transport": "ROAD_RAIL", "secondary_transport": "SEA", "routing_code": "EMEA-ROAD_RAIL"}
+{"invoice_id": "united_kingdom_4", "predicted_country": "United Kingdom", "confidence": 0.0785, "region": "EMEA", "primary_transport": "ROAD_RAIL", "secondary_transport": "SEA", "routing_code": "EMEA-ROAD_RAIL"}
+{"invoice_id": "united_kingdom_5", "predicted_country": "United Kingdom", "confidence": 0.0784, "region": "EMEA", "primary_transport": "ROAD_RAIL", "secondary_transport": "SEA", "routing_code": "EMEA-ROAD_RAIL"}
+{"invoice_id": "united_states_1", "predicted_country": "United States", "confidence": 0.0841, "region": "AMER", "primary_transport": "ROAD", "secondary_transport": "RAIL", "routing_code": "AMER-ROAD"}
+{"invoice_id": "united_states_2", "predicted_country": "United States", "confidence": 0.0842, "region": "AMER", "primary_transport": "ROAD", "secondary_transport": "RAIL", "routing_code": "AMER-ROAD"}
+{"invoice_id": "united_states_3", "predicted_country": "United States", "confidence": 0.084, "region": "AMER", "primary_transport": "ROAD", "secondary_transport": "RAIL", "routing_code": "AMER-ROAD"}
+{"invoice_id": "united_states_4", "predicted_country": "United States", "confidence": 0.0842, "region": "AMER", "primary_transport": "ROAD", "secondary_transport": "RAIL", "routing_code": "AMER-ROAD"}
+{"invoice_id": "united_states_5", "predicted_country": "United States", "confidence": 0.0843, "region": "AMER", "primary_transport": "ROAD", "secondary_transport": "RAIL", "routing_code": "AMER-ROAD"}
+{"invoice_id": "vietnam_1", "predicted_country": "Vietnam", "confidence": 0.0925, "region": "APAC", "primary_transport": "SEA", "secondary_transport": "AIR", "routing_code": "APAC-SEA"}
+{"invoice_id": "vietnam_2", "predicted_country": "Vietnam", "confidence": 0.0924, "region": "APAC", "primary_transport": "SEA", "secondary_transport": "AIR", "routing_code": "APAC-SEA"}
+{"invoice_id": "vietnam_3", "predicted_country": "Vietnam", "confidence": 0.0921, "region": "APAC", "primary_transport": "SEA", "secondary_transport": "AIR", "routing_code": "APAC-SEA"}
+{"invoice_id": "vietnam_4", "predicted_country": "Vietnam", "confidence": 0.0923, "region": "APAC", "primary_transport": "SEA", "secondary_transport": "AIR", "routing_code": "APAC-SEA"}
+{"invoice_id": "vietnam_5", "predicted_country": "Vietnam", "confidence": 0.0926, "region": "APAC", "primary_transport": "SEA", "secondary_transport": "AIR", "routing_code": "APAC-SEA"}
+{"invoice_id": "india_1.pdf", "predicted_country": "India", "confidence": 0.0873, "region": "APAC", "primary_transport": "SEA", "secondary_transport": "AIR", "routing_code": "APAC-SEA"}

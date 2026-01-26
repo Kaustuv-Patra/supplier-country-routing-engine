@@ -1,0 +1,25 @@
+--- page 1 ---
+invoice
+invoice number: it-55309
+invoice date: 2024-02-09
+due date: 2024-03-10
+supplier
+italy trading company limited
+123 business street
+capital city
+italy
+tax id (partita iva): 866427503705
+phone: +39 436808455
+email: billing@example.com
+bill to
+global buyer ltd.
+london
+united kingdom
+financial summary
+subtotal: € 6311.72
+tax (18%): € 1136.11
+total: € 7447.83
+payment terms: net 30
+description
+supply of industrial components as agreed.
+ai sensi della legge italiana

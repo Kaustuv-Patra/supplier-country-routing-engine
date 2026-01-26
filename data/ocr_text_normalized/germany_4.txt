@@ -1,0 +1,25 @@
+--- page 1 ---
+invoice
+invoice number: de-70637
+invoice date: 2024-05-23
+due date: 2024-06-22
+supplier
+germany trading company limited
+123 business street
+capital city
+germany
+tax id (ust-idnr): 958860617535
+phone: +49 180943908
+email: billing@example.com
+bill to
+global buyer ltd.
+london
+united kingdom
+financial summary
+subtotal: € 21672.2
+tax (15%): € 3250.83
+total: € 24923.03
+payment terms: net 30
+description
+supply of industrial components as agreed.
+gemak deutschem recht

@@ -1,0 +1,67 @@
+{
+  "invoice_metadata": {
+    "invoice_id": "9a08726f-d401-4e57-9f65-802127b1eecd",
+    "invoice_number": "IN-30379",
+    "invoice_date": "2025-12-15",
+    "due_date": "2026-01-14",
+    "document_language": "en"
+  },
+  "supplier": {
+    "name": "India Trading Co.",
+    "legal_name": "India Trading Company Limited",
+    "country": "India",
+    "country_code": "IN",
+    "address": {
+      "line_1": "123 Business Street",
+      "line_2": "",
+      "city": "Capital City",
+      "state_province": "",
+      "postal_code": "000000"
+    },
+    "tax_id": {
+      "value": "372656369774",
+      "type": "GSTIN"
+    },
+    "phone": "+91 209747451",
+    "email": "billing@example.com",
+    "website": "www.example.com"
+  },
+  "buyer": {
+    "name": "Global Buyer Ltd.",
+    "country": "United Kingdom",
+    "address": {
+      "city": "London",
+      "postal_code": "SW1A 1AA"
+    }
+  },
+  "financials": {
+    "currency_code": "INR",
+    "currency_symbol": "₹",
+    "subtotal": 21708.11,
+    "tax_rate": 0.15,
+    "tax_amount": 3256.22,
+    "total_amount": 24964.33,
+    "payment_terms": "Net 30"
+  },
+  "banking": {
+    "bank_name": "International Bank",
+    "account_number": "418010168081",
+    "swift_bic": "INTLXXXX"
+  },
+  "text_blocks": {
+    "line_items_text": "Supply of industrial components as agreed.",
+    "legal_footer_text": "Subject to Indian Jurisdiction",
+    "compliance_text": "Goods comply with applicable regulations."
+  },
+  "variation_controls": {
+    "omit_fields": [],
+    "ocr_noise_level": "medium",
+    "language_mix": false,
+    "ambiguous_currency": false,
+    "date_format": "YYYY-MM-DD"
+  },
+  "ground_truth": {
+    "supplier_country": "India",
+    "route": "B"
+  }
+}

@@ -1,0 +1,24 @@
+--- page 1 ---
+invoice
+invoice number: jp-70482
+invoice date: 2024-08-18
+due date: 2024-09-17
+supplier
+japan trading company limited
+123 business street
+capital city
+japan
+tax id (corporate number): 132926613814
+phone: +81 795472980
+email: billing@example.com
+bill to
+global buyer ltd.
+london
+united kingdom
+financial summary
+subtotal: ¥ 49620.6
+tax (5%): ¥ 2481.03
+total: ¥ 52101.63
+payment terms: net 30
+description
+supply of industrial components as agreed.

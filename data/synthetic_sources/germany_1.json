@@ -1,0 +1,67 @@
+{
+  "invoice_metadata": {
+    "invoice_id": "ac4c5045-2912-450c-a009-19e685f80deb",
+    "invoice_number": "DE-18834",
+    "invoice_date": "2025-12-25",
+    "due_date": "2026-01-24",
+    "document_language": "en"
+  },
+  "supplier": {
+    "name": "Germany Trading Co.",
+    "legal_name": "Germany Trading Company Limited",
+    "country": "Germany",
+    "country_code": "DE",
+    "address": {
+      "line_1": "123 Business Street",
+      "line_2": "",
+      "city": "Capital City",
+      "state_province": "",
+      "postal_code": "000000"
+    },
+    "tax_id": {
+      "value": "38258487718",
+      "type": "USt-IdNr"
+    },
+    "phone": "+49 454794895",
+    "email": "billing@example.com",
+    "website": "www.example.com"
+  },
+  "buyer": {
+    "name": "Global Buyer Ltd.",
+    "country": "United Kingdom",
+    "address": {
+      "city": "London",
+      "postal_code": "SW1A 1AA"
+    }
+  },
+  "financials": {
+    "currency_code": "EUR",
+    "currency_symbol": "€",
+    "subtotal": 31924.04,
+    "tax_rate": 0.1,
+    "tax_amount": 3192.4,
+    "total_amount": 35116.44,
+    "payment_terms": "Net 30"
+  },
+  "banking": {
+    "bank_name": "International Bank",
+    "account_number": "563945045779",
+    "swift_bic": "INTLXXXX"
+  },
+  "text_blocks": {
+    "line_items_text": "Supply of industrial components as agreed.",
+    "legal_footer_text": "Gemäß deutschem Recht",
+    "compliance_text": "Goods comply with applicable regulations."
+  },
+  "variation_controls": {
+    "omit_fields": [],
+    "ocr_noise_level": "medium",
+    "language_mix": false,
+    "ambiguous_currency": true,
+    "date_format": "YYYY-MM-DD"
+  },
+  "ground_truth": {
+    "supplier_country": "Germany",
+    "route": "B"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "invoice_metadata": {
+    "invoice_id": "3b085ba9-397b-4ca4-ace6-58cfd8b03359",
+    "invoice_number": "VN-48684",
+    "invoice_date": "2024-06-17",
+    "due_date": "2024-07-17",
+    "document_language": "en"
+  },
+  "supplier": {
+    "name": "Vietnam Trading Co.",
+    "legal_name": "Vietnam Trading Company Limited",
+    "country": "Vietnam",
+    "country_code": "VN",
+    "address": {
+      "line_1": "123 Business Street",
+      "line_2": "",
+      "city": "Capital City",
+      "state_province": "",
+      "postal_code": "000000"
+    },
+    "tax_id": {
+      "value": "956699187686",
+      "type": "MST"
+    },
+    "phone": "+84 463692735",
+    "email": "billing@example.com",
+    "website": "www.example.com"
+  },
+  "buyer": {
+    "name": "Global Buyer Ltd.",
+    "country": "United Kingdom",
+    "address": {
+      "city": "London",
+      "postal_code": "SW1A 1AA"
+    }
+  },
+  "financials": {
+    "currency_code": "VND",
+    "currency_symbol": "₫",
+    "subtotal": 13591.53,
+    "tax_rate": 0.18,
+    "tax_amount": 2446.48,
+    "total_amount": 16038.01,
+    "payment_terms": "Net 30"
+  },
+  "banking": {
+    "bank_name": "International Bank",
+    "account_number": "129008204060",
+    "swift_bic": "INTLXXXX"
+  },
+  "text_blocks": {
+    "line_items_text": "Supply of industrial components as agreed.",
+    "legal_footer_text": "Theo pháp luật Việt Nam",
+    "compliance_text": "Goods comply with applicable regulations."
+  },
+  "variation_controls": {
+    "omit_fields": [
+      "banking.swift_bic"
+    ],
+    "ocr_noise_level": "low",
+    "language_mix": true,
+    "ambiguous_currency": false,
+    "date_format": "DD-MM-YYYY"
+  },
+  "ground_truth": {
+    "supplier_country": "Vietnam",
+    "route": "A"
+  }
+}

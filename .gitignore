@@ -1,0 +1,22 @@
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Raw input documents
+data/raw_pdfs/
+
+# Hugging Face Trainer internals (never commit)
+models/**/checkpoint-*/
+models/**/optimizer.pt
+models/**/scheduler.pt
+models/**/trainer_state.json

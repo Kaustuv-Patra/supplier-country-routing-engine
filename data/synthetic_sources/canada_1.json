@@ -1,0 +1,67 @@
+{
+  "invoice_metadata": {
+    "invoice_id": "d42243b0-a658-4fdb-886a-48c6164a657e",
+    "invoice_number": "CA-98117",
+    "invoice_date": "2025-11-21",
+    "due_date": "2025-12-21",
+    "document_language": "en"
+  },
+  "supplier": {
+    "name": "Canada Trading Co.",
+    "legal_name": "Canada Trading Company Limited",
+    "country": "Canada",
+    "country_code": "CA",
+    "address": {
+      "line_1": "123 Business Street",
+      "line_2": "",
+      "city": "Capital City",
+      "state_province": "",
+      "postal_code": "000000"
+    },
+    "tax_id": {
+      "value": "295595753511",
+      "type": "BN"
+    },
+    "phone": "+1 718740490",
+    "email": "billing@example.com",
+    "website": "www.example.com"
+  },
+  "buyer": {
+    "name": "Global Buyer Ltd.",
+    "country": "United Kingdom",
+    "address": {
+      "city": "London",
+      "postal_code": "SW1A 1AA"
+    }
+  },
+  "financials": {
+    "currency_code": "CAD",
+    "currency_symbol": "$",
+    "subtotal": 41961.97,
+    "tax_rate": 0.05,
+    "tax_amount": 2098.1,
+    "total_amount": 44060.07,
+    "payment_terms": "Net 30"
+  },
+  "banking": {
+    "bank_name": "International Bank",
+    "account_number": "838691416447",
+    "swift_bic": "INTLXXXX"
+  },
+  "text_blocks": {
+    "line_items_text": "Supply of industrial components as agreed.",
+    "legal_footer_text": "Governed by Canadian law",
+    "compliance_text": "Goods comply with applicable regulations."
+  },
+  "variation_controls": {
+    "omit_fields": [],
+    "ocr_noise_level": "medium",
+    "language_mix": false,
+    "ambiguous_currency": false,
+    "date_format": "YYYY-MM-DD"
+  },
+  "ground_truth": {
+    "supplier_country": "Canada",
+    "route": "B"
+  }
+}

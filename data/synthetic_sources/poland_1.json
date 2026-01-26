@@ -1,0 +1,67 @@
+{
+  "invoice_metadata": {
+    "invoice_id": "b2dabe2b-e352-4125-a805-6375cecfea12",
+    "invoice_number": "PL-70515",
+    "invoice_date": "2024-03-26",
+    "due_date": "2024-04-25",
+    "document_language": "en"
+  },
+  "supplier": {
+    "name": "Poland Trading Co.",
+    "legal_name": "Poland Trading Company Limited",
+    "country": "Poland",
+    "country_code": "PL",
+    "address": {
+      "line_1": "123 Business Street",
+      "line_2": "",
+      "city": "Capital City",
+      "state_province": "",
+      "postal_code": "000000"
+    },
+    "tax_id": {
+      "value": "52330127777",
+      "type": "NIP"
+    },
+    "phone": "+48 379340713",
+    "email": "billing@example.com",
+    "website": "www.example.com"
+  },
+  "buyer": {
+    "name": "Global Buyer Ltd.",
+    "country": "United Kingdom",
+    "address": {
+      "city": "London",
+      "postal_code": "SW1A 1AA"
+    }
+  },
+  "financials": {
+    "currency_code": "PLN",
+    "currency_symbol": "zł",
+    "subtotal": 32494.73,
+    "tax_rate": 0.1,
+    "tax_amount": 3249.47,
+    "total_amount": 35744.2,
+    "payment_terms": "Net 30"
+  },
+  "banking": {
+    "bank_name": "International Bank",
+    "account_number": "359110524275",
+    "swift_bic": "INTLXXXX"
+  },
+  "text_blocks": {
+    "line_items_text": "Supply of industrial components as agreed.",
+    "legal_footer_text": "Zgodnie z prawem polskim",
+    "compliance_text": "Goods comply with applicable regulations."
+  },
+  "variation_controls": {
+    "omit_fields": [],
+    "ocr_noise_level": "medium",
+    "language_mix": false,
+    "ambiguous_currency": false,
+    "date_format": "DD-MM-YYYY"
+  },
+  "ground_truth": {
+    "supplier_country": "Poland",
+    "route": "B"
+  }
+}

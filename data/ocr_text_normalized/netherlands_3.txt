@@ -1,0 +1,25 @@
+--- page 1 ---
+invoice
+invoice number: nl-37110
+invoice date: 2025-07-09
+due date: 2025-08-08
+supplier
+netherlands trading company limited
+123 business street
+capital city
+netherlands
+tax id (btw): 463148741006
+phone: +31 518197538
+email: billing@example.com
+bill to
+global buyer ltd.
+london
+united kingdom
+financial summary
+subtotal: € 23830.29
+tax (5%): € 1191.51
+total: € 25021.8
+payment terms: net 30
+description
+supply of industrial components as agreed.
+nederlands recht

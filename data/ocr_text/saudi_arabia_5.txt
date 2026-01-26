@@ -1,0 +1,39 @@
+
+--- PAGE 1 ---
+INVOICE
+
+Invoice Number: SA-23474
+Invoice Date: 2025-10-22
+Due Date: 2025-11-21
+
+Supplier
+
+Saudi Arabia Trading Company Limited
+
+123 Business Street
+
+Capital City
+
+Saudi Arabia
+
+Tax ID (VAT Registration Number): 279811847378
+Phone: +966 311818984
+
+Email: billing@example.com
+
+Bill To
+
+Global Buyer Ltd.
+London
+
+United Kingdom
+
+Financial Summary
+Subtotal: 40936.81
+Tax (10%): 4093.68
+Total: 45030.49
+
+Payment Terms: Net 30
+
+Description
+Supply of industrial components as agreed.

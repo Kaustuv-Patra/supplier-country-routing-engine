@@ -1,0 +1,39 @@
+
+--- PAGE 1 ---
+INVOICE
+
+Invoice Number: BR-21164
+Invoice Date: 2024-06-04
+Due Date: 2024-07-04
+
+Supplier
+
+Brazil Trading Company Limited
+123 Business Street
+
+Capital City
+
+Brazil
+
+Tax ID (CNPJ): 274861785492
+Phone: +55 227186396
+
+Email: billing@example.com
+
+Bill To
+
+Global Buyer Ltd.
+London
+
+United Kingdom
+
+Financial Summary
+Subtotal: R$ 8310.68
+Tax (15%): R$ 1246.6
+Total: R$ 9557.28
+Payment Terms: Net 30
+
+Description
+Supply of industrial components as agreed.
+
+Conforme legislagao brasileira

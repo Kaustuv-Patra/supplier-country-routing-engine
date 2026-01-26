@@ -1,0 +1,69 @@
+{
+  "invoice_metadata": {
+    "invoice_id": "2ec513f9-2cdd-4d5e-8918-8eb5537700ec",
+    "invoice_number": "CZ-90728",
+    "invoice_date": "2024-06-29",
+    "due_date": "2024-07-29",
+    "document_language": "en"
+  },
+  "supplier": {
+    "name": "Czech Republic Trading Co.",
+    "legal_name": "Czech Republic Trading Company Limited",
+    "country": "Czech Republic",
+    "country_code": "CZ",
+    "address": {
+      "line_1": "123 Business Street",
+      "line_2": "",
+      "city": "Capital City",
+      "state_province": "",
+      "postal_code": "000000"
+    },
+    "tax_id": {
+      "value": "852724959642",
+      "type": "DIČ"
+    },
+    "phone": "+420 619151495",
+    "email": "billing@example.com",
+    "website": "www.example.com"
+  },
+  "buyer": {
+    "name": "Global Buyer Ltd.",
+    "country": "United Kingdom",
+    "address": {
+      "city": "London",
+      "postal_code": "SW1A 1AA"
+    }
+  },
+  "financials": {
+    "currency_code": "CZK",
+    "currency_symbol": "Kč",
+    "subtotal": 36955.97,
+    "tax_rate": 0.15,
+    "tax_amount": 5543.4,
+    "total_amount": 42499.37,
+    "payment_terms": "Net 30"
+  },
+  "banking": {
+    "bank_name": "International Bank",
+    "account_number": "479737987515",
+    "swift_bic": "INTLXXXX"
+  },
+  "text_blocks": {
+    "line_items_text": "Supply of industrial components as agreed.",
+    "legal_footer_text": "Podle českého práva",
+    "compliance_text": "Goods comply with applicable regulations."
+  },
+  "variation_controls": {
+    "omit_fields": [
+      "supplier.website"
+    ],
+    "ocr_noise_level": "low",
+    "language_mix": true,
+    "ambiguous_currency": false,
+    "date_format": "DD-MM-YYYY"
+  },
+  "ground_truth": {
+    "supplier_country": "Czech Republic",
+    "route": "B"
+  }
+}

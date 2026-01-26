@@ -1,0 +1,24 @@
+--- page 1 ---
+invoice
+invoice number: th-23022
+invoice date: 2025-03-31
+due date: 2025-04-30
+supplier
+thailand trading company limited
+123 business street
+capital city
+thailand
+tax id (tax id): 755842329275
+phone: +66 494422907
+email: billing@example.com
+bill to
+global buyer ltd.
+london
+united kingdom
+financial summary
+subtotal: 47577.2
+tax (15%): 7136.58
+total: 54713.78
+payment terms: net 30
+description
+supply of industrial components as agreed.

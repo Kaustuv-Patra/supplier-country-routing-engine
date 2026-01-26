@@ -1,0 +1,69 @@
+{
+  "invoice_metadata": {
+    "invoice_id": "22cdcfe6-51bd-47b0-a9d9-a2629787cf0e",
+    "invoice_number": "US-80697",
+    "invoice_date": "2024-06-05",
+    "due_date": "2024-07-05",
+    "document_language": "en"
+  },
+  "supplier": {
+    "name": "United States Trading Co.",
+    "legal_name": "United States Trading Company Limited",
+    "country": "United States",
+    "country_code": "US",
+    "address": {
+      "line_1": "123 Business Street",
+      "line_2": "",
+      "city": "Capital City",
+      "state_province": "",
+      "postal_code": "000000"
+    },
+    "tax_id": {
+      "value": "858803742143",
+      "type": "EIN"
+    },
+    "phone": "+1 669462919",
+    "email": "billing@example.com",
+    "website": "www.example.com"
+  },
+  "buyer": {
+    "name": "Global Buyer Ltd.",
+    "country": "United Kingdom",
+    "address": {
+      "city": "London",
+      "postal_code": "SW1A 1AA"
+    }
+  },
+  "financials": {
+    "currency_code": "USD",
+    "currency_symbol": "$",
+    "subtotal": 19321.78,
+    "tax_rate": 0.1,
+    "tax_amount": 1932.18,
+    "total_amount": 21253.96,
+    "payment_terms": "Net 30"
+  },
+  "banking": {
+    "bank_name": "International Bank",
+    "account_number": "4944899549",
+    "swift_bic": "INTLXXXX"
+  },
+  "text_blocks": {
+    "line_items_text": "Supply of industrial components as agreed.",
+    "legal_footer_text": "This invoice is governed by U.S. law",
+    "compliance_text": "Goods comply with applicable regulations."
+  },
+  "variation_controls": {
+    "omit_fields": [
+      "supplier.website"
+    ],
+    "ocr_noise_level": "low",
+    "language_mix": true,
+    "ambiguous_currency": false,
+    "date_format": "DD-MM-YYYY"
+  },
+  "ground_truth": {
+    "supplier_country": "United States",
+    "route": "B"
+  }
+}

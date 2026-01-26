@@ -1,0 +1,25 @@
+--- page 1 ---
+invoice
+invoice number: ca-25915
+invoice date: 2025-03-24
+due date: 2025-04-23
+supplier
+canada trading company limited
+123 business street
+capital city
+canada
+tax id (bn): 668435855938
+phone: +1 958256589
+email: billing@example.com
+bill to
+global buyer ltd.
+london
+united kingdom
+financial summary
+subtotal: $ 44161.48
+tax (18%): $ 7949.07
+total: $ 52110.55
+payment terms: net 30
+description
+supply of industrial components as agreed.
+governed by canadian law

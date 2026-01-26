@@ -1,0 +1,24 @@
+--- page 1 ---
+invoice
+invoice number: sa-53007
+invoice date: 2024-05-20
+due date: 2024-06-19
+supplier
+saudi arabia trading company limited
+123 business street
+capital city
+saudi arabia
+tax id (vat registration number): 4820296150
+phone: +966 634063428
+email: billing@example.com
+bill to
+global buyer ltd.
+london
+united kingdom
+financial summary
+subtotal: 38443.88
+tax (15%): 5766.58
+total: 44210.46
+payment terms: net 30
+description
+supply of industrial components as agreed.

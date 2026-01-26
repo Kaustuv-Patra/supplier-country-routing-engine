@@ -1,0 +1,67 @@
+{
+  "invoice_metadata": {
+    "invoice_id": "29bb5c8f-e247-4c02-ae58-a6ce1aed3180",
+    "invoice_number": "GB-81511",
+    "invoice_date": "2024-04-24",
+    "due_date": "2024-05-24",
+    "document_language": "en"
+  },
+  "supplier": {
+    "name": "United Kingdom Trading Co.",
+    "legal_name": "United Kingdom Trading Company Limited",
+    "country": "United Kingdom",
+    "country_code": "GB",
+    "address": {
+      "line_1": "123 Business Street",
+      "line_2": "",
+      "city": "Capital City",
+      "state_province": "",
+      "postal_code": "000000"
+    },
+    "tax_id": {
+      "value": "914992773726",
+      "type": "VAT"
+    },
+    "phone": "+44 496442646",
+    "email": "billing@example.com",
+    "website": "www.example.com"
+  },
+  "buyer": {
+    "name": "Global Buyer Ltd.",
+    "country": "United Kingdom",
+    "address": {
+      "city": "London",
+      "postal_code": "SW1A 1AA"
+    }
+  },
+  "financials": {
+    "currency_code": "GBP",
+    "currency_symbol": "£",
+    "subtotal": 4686.95,
+    "tax_rate": 0.1,
+    "tax_amount": 468.69,
+    "total_amount": 5155.64,
+    "payment_terms": "Net 30"
+  },
+  "banking": {
+    "bank_name": "International Bank",
+    "account_number": "609092248272",
+    "swift_bic": "INTLXXXX"
+  },
+  "text_blocks": {
+    "line_items_text": "Supply of industrial components as agreed.",
+    "legal_footer_text": "Subject to UK law",
+    "compliance_text": "Goods comply with applicable regulations."
+  },
+  "variation_controls": {
+    "omit_fields": [],
+    "ocr_noise_level": "medium",
+    "language_mix": true,
+    "ambiguous_currency": true,
+    "date_format": "DD-MM-YYYY"
+  },
+  "ground_truth": {
+    "supplier_country": "United Kingdom",
+    "route": "B"
+  }
+}

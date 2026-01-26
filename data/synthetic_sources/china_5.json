@@ -1,0 +1,67 @@
+{
+  "invoice_metadata": {
+    "invoice_id": "123d3f6e-dc78-473a-9c9d-a655a1f98ec0",
+    "invoice_number": "CN-79352",
+    "invoice_date": "2025-01-29",
+    "due_date": "2025-02-28",
+    "document_language": "en"
+  },
+  "supplier": {
+    "name": "China Trading Co.",
+    "legal_name": "China Trading Company Limited",
+    "country": "China",
+    "country_code": "CN",
+    "address": {
+      "line_1": "123 Business Street",
+      "line_2": "",
+      "city": "Capital City",
+      "state_province": "",
+      "postal_code": "000000"
+    },
+    "tax_id": {
+      "value": "947278892251",
+      "type": "Unified Social Credit Code"
+    },
+    "phone": "+86 112327652",
+    "email": "billing@example.com",
+    "website": "www.example.com"
+  },
+  "buyer": {
+    "name": "Global Buyer Ltd.",
+    "country": "United Kingdom",
+    "address": {
+      "city": "London",
+      "postal_code": "SW1A 1AA"
+    }
+  },
+  "financials": {
+    "currency_code": "CNY",
+    "currency_symbol": "¥",
+    "subtotal": 19699.35,
+    "tax_rate": 0.18,
+    "tax_amount": 3545.88,
+    "total_amount": 23245.23,
+    "payment_terms": "Net 30"
+  },
+  "banking": {
+    "bank_name": "International Bank",
+    "account_number": "794195777447",
+    "swift_bic": "INTLXXXX"
+  },
+  "text_blocks": {
+    "line_items_text": "Supply of industrial components as agreed.",
+    "legal_footer_text": "增值税专用发票。根据中华人民共和国法律。",
+    "compliance_text": "Goods comply with applicable regulations."
+  },
+  "variation_controls": {
+    "omit_fields": [],
+    "ocr_noise_level": "high",
+    "language_mix": false,
+    "ambiguous_currency": false,
+    "date_format": "YYYY-MM-DD"
+  },
+  "ground_truth": {
+    "supplier_country": "China",
+    "route": "A"
+  }
+}

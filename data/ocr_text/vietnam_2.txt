@@ -1,0 +1,40 @@
+
+--- PAGE 1 ---
+INVOICE
+
+Invoice Number: VN-48696
+Invoice Date: 2025-01-25
+Due Date: 2025-02-24
+
+Supplier
+
+Vietnam Trading Company Limited
+123 Business Street
+
+Capital City
+
+Vietnam
+
+Tax ID (MST): 725129489915
+Phone: +84 524993183
+
+Email: billing@example.com
+
+Bill To
+
+Global Buyer Ltd.
+London
+
+United Kingdom
+
+Financial Summary
+Subtotal: 29024.21
+Tax (15%): 4353.63
+Total: 33377.84
+
+Payment Terms: Net 30
+
+Description
+Supply of industrial components as agreed.
+
+Theo phap lu tVi tNam

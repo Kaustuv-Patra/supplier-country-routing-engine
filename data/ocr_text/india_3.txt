@@ -1,0 +1,40 @@
+
+--- PAGE 1 ---
+INVOICE
+
+Invoice Number: IN-30379
+Invoice Date: 2025-12-15
+Due Date: 2026-01-14
+
+Supplier
+
+India Trading Company Limited
+123 Business Street
+
+Capital City
+
+India
+
+Tax ID (GSTIN): 372656369774
+Phone: +91 209747451
+
+Email: billing@example.com
+
+Bill To
+
+Global Buyer Ltd.
+London
+
+United Kingdom
+
+Financial Summary
+Subtotal: 21708.11
+Tax (15%): 3256.22
+Total: 24964.33
+
+Payment Terms: Net 30
+
+Description
+Supply of industrial components as agreed.
+
+Subject to Indian Jurisdiction

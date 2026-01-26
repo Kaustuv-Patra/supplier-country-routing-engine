@@ -1,0 +1,24 @@
+--- page 1 ---
+invoice
+invoice number: th-89964
+invoice date: 2025-04-27
+due date: 2025-05-27
+supplier
+thailand trading company limited
+123 business street
+capital city
+thailand
+tax id (tax id): 709630368716
+phone: +66 167878777
+email: billing@example.com
+bill to
+global buyer ltd.
+london
+united kingdom
+financial summary
+subtotal: 2226.21
+tax (15%): 333.93
+total: 2560.14
+payment terms: net 30
+description
+supply of industrial components as agreed.

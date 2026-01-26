@@ -1,0 +1,69 @@
+{
+  "invoice_metadata": {
+    "invoice_id": "e1ff78eb-6963-4b19-a4a6-fdaa3cbc0087",
+    "invoice_number": "KR-80912",
+    "invoice_date": "2025-10-03",
+    "due_date": "2025-11-02",
+    "document_language": "en"
+  },
+  "supplier": {
+    "name": "South Korea Trading Co.",
+    "legal_name": "South Korea Trading Company Limited",
+    "country": "South Korea",
+    "country_code": "KR",
+    "address": {
+      "line_1": "123 Business Street",
+      "line_2": "",
+      "city": "Capital City",
+      "state_province": "",
+      "postal_code": "000000"
+    },
+    "tax_id": {
+      "value": "678769018230",
+      "type": "Business Registration Number"
+    },
+    "phone": "+82 173466219",
+    "email": "billing@example.com",
+    "website": "www.example.com"
+  },
+  "buyer": {
+    "name": "Global Buyer Ltd.",
+    "country": "United Kingdom",
+    "address": {
+      "city": "London",
+      "postal_code": "SW1A 1AA"
+    }
+  },
+  "financials": {
+    "currency_code": "KRW",
+    "currency_symbol": "₩",
+    "subtotal": 36217.15,
+    "tax_rate": 0.18,
+    "tax_amount": 6519.09,
+    "total_amount": 42736.24,
+    "payment_terms": "Net 30"
+  },
+  "banking": {
+    "bank_name": "International Bank",
+    "account_number": "693498065181",
+    "swift_bic": "INTLXXXX"
+  },
+  "text_blocks": {
+    "line_items_text": "Supply of industrial components as agreed.",
+    "legal_footer_text": "대한민국 법률에 따름",
+    "compliance_text": "Goods comply with applicable regulations."
+  },
+  "variation_controls": {
+    "omit_fields": [
+      "banking.swift_bic"
+    ],
+    "ocr_noise_level": "high",
+    "language_mix": true,
+    "ambiguous_currency": false,
+    "date_format": "YYYY-MM-DD"
+  },
+  "ground_truth": {
+    "supplier_country": "South Korea",
+    "route": "B"
+  }
+}

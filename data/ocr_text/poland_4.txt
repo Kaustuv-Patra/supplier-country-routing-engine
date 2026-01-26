@@ -1,0 +1,39 @@
+
+--- PAGE 1 ---
+INVOICE
+
+Invoice Number: PL-31465
+Invoice Date: 2025-01-12
+Due Date: 2025-02-11
+
+Supplier
+
+Poland Trading Company Limited
+123 Business Street
+
+Capital City
+
+Poland
+
+Tax ID (NIP): 343455860556
+Phone: +48 216070149
+
+Email: billing@example.com
+
+Bill To
+
+Global Buyer Ltd.
+London
+
+United Kingdom
+
+Financial Summary
+Subtotal: z 9221.67
+Tax (5%): z 461.08
+Total: z 9682.75
+Payment Terms: Net 30
+
+Description
+Supply of industrial components as agreed.
+
+Zgodnie z prawem polskim

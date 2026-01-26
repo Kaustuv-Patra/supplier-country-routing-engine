@@ -1,0 +1,39 @@
+
+--- PAGE 1 ---
+INVOICE
+
+Invoice Number: FR-85880
+Invoice Date: 2024-05-02
+Due Date: 2024-06-01
+
+Supplier
+
+France Trading Company Limited
+123 Business Street
+
+Capital City
+
+France
+
+Tax ID (TVA): 45513113302
+Phone: +33 765055833
+
+Email: billing@example.com
+
+Bill To
+
+Global Buyer Ltd.
+London
+
+United Kingdom
+
+Financial Summary
+Subtotal: € 47138.21
+Tax (10%): € 4713.82
+Total: € 51852.03
+Payment Terms: Net 30
+
+Description
+Supply of industrial components as agreed.
+
+Conformément au droit frangais

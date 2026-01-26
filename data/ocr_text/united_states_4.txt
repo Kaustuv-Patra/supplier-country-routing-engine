@@ -1,0 +1,40 @@
+
+--- PAGE 1 ---
+INVOICE
+
+Invoice Number: US-37760
+Invoice Date: 2025-06-24
+Due Date: 2025-07-24
+
+Supplier
+
+United States Trading Company Limited
+123 Business Street
+
+Capital City
+
+United States
+
+Tax ID (EIN): 596705139934
+
+Phone: +1 910959828
+
+Email: billing@example.com
+
+Bill To
+
+Global Buyer Ltd.
+London
+
+United Kingdom
+
+Financial Summary
+Subtotal: $ 43749.22
+Tax (18%): $ 7874.86
+Total: $ 51624.08
+Payment Terms: Net 30
+
+Description
+Supply of industrial components as agreed.
+
+This invoice is governed by U.S. law

@@ -1,0 +1,39 @@
+
+--- PAGE 1 ---
+INVOICE
+
+Invoice Number: IN-83563
+Invoice Date: 2024-04-05
+Due Date: 2024-05-05
+
+Supplier
+
+India Trading Company Limited
+123 Business Street
+
+Capital City
+
+India
+
+Tax ID (GSTIN): 786843016361
+Phone: +91 797808098
+
+Email: billing@example.com
+
+Bill To
+
+Global Buyer Ltd.
+London
+
+United Kingdom
+
+Financial Summary
+Subtotal: 11713.26
+Tax (5%): 585.66
+Total: 12298.92
+Payment Terms: Net 30
+
+Description
+Supply of industrial components as agreed.
+
+Subject to Indian Jurisdiction

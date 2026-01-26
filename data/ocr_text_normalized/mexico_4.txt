@@ -1,0 +1,25 @@
+--- page 1 ---
+invoice
+invoice number: mx-17816
+invoice date: 2024-09-29
+due date: 2024-10-29
+supplier
+mexico trading company limited
+123 business street
+capital city
+mexico
+tax id (rfc): 868306026728
+phone: +52 430295664
+email: billing@example.com
+bill to
+global buyer ltd.
+london
+united kingdom
+financial summary
+subtotal: $ 41504.93
+tax (5%): $ 2075.25
+total: $ 43580.18
+payment terms: net 30
+description
+supply of industrial components as agreed.
+conforme a la ley mexicana

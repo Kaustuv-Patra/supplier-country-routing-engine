@@ -1,0 +1,24 @@
+--- page 1 ---
+invoice
+invoice number: cn-76784
+invoice date: 2024-08-12
+due date: 2024-09-11
+supplier
+china trading company limited
+123 business street
+capital city
+china
+tax id (unified social credit code): 100913882207
+phone: +86 911514914
+email: billing@example.com
+bill to
+global buyer ltd.
+london
+united kingdom
+financial summary
+subtotal: ¥ 49868.96
+tax (10%): ¥ 4986.9
+total: ¥ 54855.86
+payment terms: net 30
+description
+supply of industrial components as agreed.

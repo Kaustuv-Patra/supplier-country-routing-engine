@@ -1,0 +1,40 @@
+
+--- PAGE 1 ---
+INVOICE
+
+Invoice Number: VN-48684
+Invoice Date: 2024-06-17
+Due Date: 2024-07-17
+
+Supplier
+
+Vietnam Trading Company Limited
+123 Business Street
+
+Capital City
+
+Vietnam
+
+Tax ID (MST): 956699187686
+Phone: +84 463692735
+
+Email: billing@example.com
+
+Bill To
+
+Global Buyer Ltd.
+London
+
+United Kingdom
+
+Financial Summary
+Subtotal: 13591.53
+Tax (18%): 2446.48
+Total: 16038.01
+
+Payment Terms: Net 30
+
+Description
+Supply of industrial components as agreed.
+
+Theo phap lu tVi tNam

@@ -1,0 +1,67 @@
+{
+  "invoice_metadata": {
+    "invoice_id": "c22fb347-9c0c-40cf-a6f8-4af910bcf91f",
+    "invoice_number": "NL-64921",
+    "invoice_date": "2024-12-26",
+    "due_date": "2025-01-25",
+    "document_language": "en"
+  },
+  "supplier": {
+    "name": "Netherlands Trading Co.",
+    "legal_name": "Netherlands Trading Company Limited",
+    "country": "Netherlands",
+    "country_code": "NL",
+    "address": {
+      "line_1": "123 Business Street",
+      "line_2": "",
+      "city": "Capital City",
+      "state_province": "",
+      "postal_code": "000000"
+    },
+    "tax_id": {
+      "value": "822660393259",
+      "type": "BTW"
+    },
+    "phone": "+31 888807316",
+    "email": "billing@example.com",
+    "website": "www.example.com"
+  },
+  "buyer": {
+    "name": "Global Buyer Ltd.",
+    "country": "United Kingdom",
+    "address": {
+      "city": "London",
+      "postal_code": "SW1A 1AA"
+    }
+  },
+  "financials": {
+    "currency_code": "EUR",
+    "currency_symbol": "€",
+    "subtotal": 15632.02,
+    "tax_rate": 0.18,
+    "tax_amount": 2813.76,
+    "total_amount": 18445.78,
+    "payment_terms": "Net 30"
+  },
+  "banking": {
+    "bank_name": "International Bank",
+    "account_number": "879518948769",
+    "swift_bic": "INTLXXXX"
+  },
+  "text_blocks": {
+    "line_items_text": "Supply of industrial components as agreed.",
+    "legal_footer_text": "Nederlands recht",
+    "compliance_text": "Goods comply with applicable regulations."
+  },
+  "variation_controls": {
+    "omit_fields": [],
+    "ocr_noise_level": "medium",
+    "language_mix": true,
+    "ambiguous_currency": false,
+    "date_format": "DD-MM-YYYY"
+  },
+  "ground_truth": {
+    "supplier_country": "Netherlands",
+    "route": "B"
+  }
+}

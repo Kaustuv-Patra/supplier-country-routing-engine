@@ -1,0 +1,69 @@
+{
+  "invoice_metadata": {
+    "invoice_id": "949e21ce-ca21-49fe-af0b-18c0dd9d20c0",
+    "invoice_number": "ES-68008",
+    "invoice_date": "2025-11-14",
+    "due_date": "2025-12-14",
+    "document_language": "en"
+  },
+  "supplier": {
+    "name": "Spain Trading Co.",
+    "legal_name": "Spain Trading Company Limited",
+    "country": "Spain",
+    "country_code": "ES",
+    "address": {
+      "line_1": "123 Business Street",
+      "line_2": "",
+      "city": "Capital City",
+      "state_province": "",
+      "postal_code": "000000"
+    },
+    "tax_id": {
+      "value": "895994519250",
+      "type": "CIF"
+    },
+    "phone": "+34 872314530",
+    "email": "billing@example.com",
+    "website": "www.example.com"
+  },
+  "buyer": {
+    "name": "Global Buyer Ltd.",
+    "country": "United Kingdom",
+    "address": {
+      "city": "London",
+      "postal_code": "SW1A 1AA"
+    }
+  },
+  "financials": {
+    "currency_code": "EUR",
+    "currency_symbol": "€",
+    "subtotal": 27025.46,
+    "tax_rate": 0.15,
+    "tax_amount": 4053.82,
+    "total_amount": 31079.28,
+    "payment_terms": "Net 30"
+  },
+  "banking": {
+    "bank_name": "International Bank",
+    "account_number": "558881979182",
+    "swift_bic": "INTLXXXX"
+  },
+  "text_blocks": {
+    "line_items_text": "Supply of industrial components as agreed.",
+    "legal_footer_text": "Conforme a la ley española",
+    "compliance_text": "Goods comply with applicable regulations."
+  },
+  "variation_controls": {
+    "omit_fields": [
+      "supplier.phone"
+    ],
+    "ocr_noise_level": "medium",
+    "language_mix": true,
+    "ambiguous_currency": false,
+    "date_format": "DD-MM-YYYY"
+  },
+  "ground_truth": {
+    "supplier_country": "Spain",
+    "route": "B"
+  }
+}

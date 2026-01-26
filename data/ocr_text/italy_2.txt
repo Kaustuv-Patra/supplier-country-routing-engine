@@ -1,0 +1,40 @@
+
+--- PAGE 1 ---
+INVOICE
+
+Invoice Number: IT-46585
+Invoice Date: 2024-12-02
+Due Date: 2025-01-01
+
+Supplier
+
+Italy Trading Company Limited
+
+123 Business Street
+
+Capital City
+
+Italy
+
+Tax ID (Partita IVA): 705892797681
+Phone: +39 646970178
+
+Email: billing@example.com
+
+Bill To
+
+Global Buyer Ltd.
+London
+
+United Kingdom
+
+Financial Summary
+Subtotal: € 14651.55
+Tax (5%): € 732.58
+Total: € 15384.13
+Payment Terms: Net 30
+
+Description
+Supply of industrial components as agreed.
+
+Ai sensi della legge italiana

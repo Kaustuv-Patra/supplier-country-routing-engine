@@ -1,0 +1,25 @@
+--- page 1 ---
+invoice
+invoice number: fr-30289
+invoice date: 2025-03-09
+due date: 2025-04-08
+supplier
+france trading company limited
+123 business street
+capital city
+france
+tax id (tva): 322948152332
+phone: +33 333754555
+email: billing@example.com
+bill to
+global buyer ltd.
+london
+united kingdom
+financial summary
+subtotal: € 35132.98
+tax (18%): € 6323.94
+total: € 41456.92
+payment terms: net 30
+description
+supply of industrial components as agreed.
+conformément au droit frangais

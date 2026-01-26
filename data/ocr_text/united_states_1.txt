@@ -1,0 +1,40 @@
+
+--- PAGE 1 ---
+INVOICE
+
+Invoice Number: US-10425
+Invoice Date: 2024-10-27
+Due Date: 2024-11-26
+
+Supplier
+
+United States Trading Company Limited
+123 Business Street
+
+Capital City
+
+United States
+
+Tax ID (EIN): 794380590668
+
+Phone: +1 872751234
+
+Email: billing@example.com
+
+Bill To
+
+Global Buyer Ltd.
+London
+
+United Kingdom
+
+Financial Summary
+Subtotal: $ 22303.5
+Tax (18%): $ 4014.63
+Total: $ 26318.13
+Payment Terms: Net 30
+
+Description
+Supply of industrial components as agreed.
+
+This invoice is governed by U.S. law

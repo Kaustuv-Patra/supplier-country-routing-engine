@@ -1,0 +1,39 @@
+
+--- PAGE 1 ---
+INVOICE
+
+Invoice Number: DE-71993
+Invoice Date: 2025-08-07
+Due Date: 2025-09-06
+
+Supplier
+
+Germany Trading Company Limited
+123 Business Street
+
+Capital City
+
+Germany
+
+Tax ID (USt-IdNr): 450154771997
+Phone: +49 304451095
+
+Email: billing@example.com
+
+Bill To
+
+Global Buyer Ltd.
+London
+
+United Kingdom
+
+Financial Summary
+Subtotal: € 29234.37
+Tax (10%): € 2923.44
+Total: € 32157.81
+Payment Terms: Net 30
+
+Description
+Supply of industrial components as agreed.
+
+Gemak deutschem Recht

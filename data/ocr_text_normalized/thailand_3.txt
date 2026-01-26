@@ -1,0 +1,24 @@
+--- page 1 ---
+invoice
+invoice number: th-74569
+invoice date: 2024-02-16
+due date: 2024-03-17
+supplier
+thailand trading company limited
+123 business street
+capital city
+thailand
+tax id (tax id): 103587948775
+phone: +66 352114611
+email: billing@example.com
+bill to
+global buyer ltd.
+london
+united kingdom
+financial summary
+subtotal: 47366.82
+tax (15%): 7105.02
+total: 54471.84
+payment terms: net 30
+description
+supply of industrial components as agreed.

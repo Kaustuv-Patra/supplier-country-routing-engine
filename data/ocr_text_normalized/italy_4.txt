@@ -1,0 +1,25 @@
+--- page 1 ---
+invoice
+invoice number: it-57739
+invoice date: 2025-12-26
+due date: 2026-01-25
+supplier
+italy trading company limited
+123 business street
+capital city
+italy
+tax id (partita iva): 74876852259
+phone: +39 813219781
+email: billing@example.com
+bill to
+global buyer ltd.
+london
+united kingdom
+financial summary
+subtotal: € 22366.82
+tax (10%): € 2236.68
+total: € 24603.5
+payment terms: net 30
+description
+supply of industrial components as agreed.
+ai sensi della legge italiana

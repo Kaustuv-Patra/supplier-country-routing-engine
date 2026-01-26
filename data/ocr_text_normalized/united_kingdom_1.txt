@@ -1,0 +1,25 @@
+--- page 1 ---
+invoice
+invoice number: gb-82512
+invoice date: 2024-05-17
+due date: 2024-06-16
+supplier
+united kingdom trading company limited
+123 business street
+capital city
+united kingdom
+tax id (vat): 297030387114
+phone: +44 402533494
+email: billing@example.com
+bill to
+global buyer ltd.
+london
+united kingdom
+financial summary
+subtotal: £ 13958.83
+tax (5%): £ 697.94
+total: £ 14656.77
+payment terms: net 30
+description
+supply of industrial components as agreed.
+subject to uk law

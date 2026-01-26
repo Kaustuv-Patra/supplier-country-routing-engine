@@ -1,0 +1,25 @@
+--- page 1 ---
+invoice
+invoice number: pl-12671
+invoice date: 2024-02-01
+due date: 2024-03-02
+supplier
+poland trading company limited
+123 business street
+capital city
+poland
+tax id (nip): 170182340877
+phone: +48 356135680
+email: billing@example.com
+bill to
+global buyer ltd.
+london
+united kingdom
+financial summary
+subtotal: z 47530.97
+tax (10%): z 4753.1
+total: 2 52284.07
+payment terms: net 30
+description
+supply of industrial components as agreed.
+zgodnie z prawem polskim

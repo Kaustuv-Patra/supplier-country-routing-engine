@@ -1,0 +1,69 @@
+{
+  "invoice_metadata": {
+    "invoice_id": "93020005-c80b-4e32-b2d6-cd10e7e51049",
+    "invoice_number": "JP-86931",
+    "invoice_date": "2024-01-03",
+    "due_date": "2024-02-02",
+    "document_language": "en"
+  },
+  "supplier": {
+    "name": "Japan Trading Co.",
+    "legal_name": "Japan Trading Company Limited",
+    "country": "Japan",
+    "country_code": "JP",
+    "address": {
+      "line_1": "123 Business Street",
+      "line_2": "",
+      "city": "Capital City",
+      "state_province": "",
+      "postal_code": "000000"
+    },
+    "tax_id": {
+      "value": "539715335953",
+      "type": "Corporate Number"
+    },
+    "phone": "+81 259553112",
+    "email": "billing@example.com",
+    "website": "www.example.com"
+  },
+  "buyer": {
+    "name": "Global Buyer Ltd.",
+    "country": "United Kingdom",
+    "address": {
+      "city": "London",
+      "postal_code": "SW1A 1AA"
+    }
+  },
+  "financials": {
+    "currency_code": "JPY",
+    "currency_symbol": "¥",
+    "subtotal": 14859.11,
+    "tax_rate": 0.15,
+    "tax_amount": 2228.87,
+    "total_amount": 17087.98,
+    "payment_terms": "Net 30"
+  },
+  "banking": {
+    "bank_name": "International Bank",
+    "account_number": "591328426008",
+    "swift_bic": "INTLXXXX"
+  },
+  "text_blocks": {
+    "line_items_text": "Supply of industrial components as agreed.",
+    "legal_footer_text": "日本国法に準拠",
+    "compliance_text": "Goods comply with applicable regulations."
+  },
+  "variation_controls": {
+    "omit_fields": [
+      "supplier.website"
+    ],
+    "ocr_noise_level": "medium",
+    "language_mix": false,
+    "ambiguous_currency": false,
+    "date_format": "DD-MM-YYYY"
+  },
+  "ground_truth": {
+    "supplier_country": "Japan",
+    "route": "B"
+  }
+}

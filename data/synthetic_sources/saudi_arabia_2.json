@@ -1,0 +1,69 @@
+{
+  "invoice_metadata": {
+    "invoice_id": "c844b426-ac31-4a0c-956f-1069eac8a962",
+    "invoice_number": "SA-67176",
+    "invoice_date": "2024-03-14",
+    "due_date": "2024-04-13",
+    "document_language": "en"
+  },
+  "supplier": {
+    "name": "Saudi Arabia Trading Co.",
+    "legal_name": "Saudi Arabia Trading Company Limited",
+    "country": "Saudi Arabia",
+    "country_code": "SA",
+    "address": {
+      "line_1": "123 Business Street",
+      "line_2": "",
+      "city": "Capital City",
+      "state_province": "",
+      "postal_code": "000000"
+    },
+    "tax_id": {
+      "value": "502601667934",
+      "type": "VAT Registration Number"
+    },
+    "phone": "+966 183604337",
+    "email": "billing@example.com",
+    "website": "www.example.com"
+  },
+  "buyer": {
+    "name": "Global Buyer Ltd.",
+    "country": "United Kingdom",
+    "address": {
+      "city": "London",
+      "postal_code": "SW1A 1AA"
+    }
+  },
+  "financials": {
+    "currency_code": "SAR",
+    "currency_symbol": "﷼",
+    "subtotal": 20456.49,
+    "tax_rate": 0.05,
+    "tax_amount": 1022.82,
+    "total_amount": 21479.31,
+    "payment_terms": "Net 30"
+  },
+  "banking": {
+    "bank_name": "International Bank",
+    "account_number": "348300118003",
+    "swift_bic": "INTLXXXX"
+  },
+  "text_blocks": {
+    "line_items_text": "Supply of industrial components as agreed.",
+    "legal_footer_text": "وفقاً لأنظمة المملكة العربية السعودية",
+    "compliance_text": "Goods comply with applicable regulations."
+  },
+  "variation_controls": {
+    "omit_fields": [
+      "supplier.phone"
+    ],
+    "ocr_noise_level": "medium",
+    "language_mix": false,
+    "ambiguous_currency": false,
+    "date_format": "YYYY-MM-DD"
+  },
+  "ground_truth": {
+    "supplier_country": "Saudi Arabia",
+    "route": "B"
+  }
+}

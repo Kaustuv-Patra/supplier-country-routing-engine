@@ -1,0 +1,25 @@
+--- page 1 ---
+invoice
+invoice number: vn-93442
+invoice date: 2025-09-13
+due date: 2025-10-13
+supplier
+vietnam trading company limited
+123 business street
+capital city
+vietnam
+tax id (mst): 679431443451
+phone: +84 369108475
+email: billing@example.com
+bill to
+global buyer ltd.
+london
+united kingdom
+financial summary
+subtotal: 40294.67
+tax (10%): 4029.47
+total: 44324.14
+payment terms: net 30
+description
+supply of industrial components as agreed.
+theo phap lu tvi tnam

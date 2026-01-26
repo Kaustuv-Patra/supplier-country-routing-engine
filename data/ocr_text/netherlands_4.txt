@@ -1,0 +1,40 @@
+
+--- PAGE 1 ---
+INVOICE
+
+Invoice Number: NL-64921
+Invoice Date: 2024-12-26
+Due Date: 2025-01-25
+
+Supplier
+
+Netherlands Trading Company Limited
+123 Business Street
+
+Capital City
+
+Netherlands
+
+Tax ID (BTW): 822660393259
+
+Phone: +31 888807316
+
+Email: billing@example.com
+
+Bill To
+
+Global Buyer Ltd.
+London
+
+United Kingdom
+
+Financial Summary
+Subtotal: € 15632.02
+Tax (18%): € 2813.76
+Total: € 18445.78
+Payment Terms: Net 30
+
+Description
+Supply of industrial components as agreed.
+
+Nederlands recht

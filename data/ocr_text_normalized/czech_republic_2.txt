@@ -1,0 +1,25 @@
+--- page 1 ---
+invoice
+invoice number: cz-90728
+invoice date: 2024-06-29
+due date: 2024-07-29
+supplier
+czech republic trading company limited
+123 business street
+capital city
+czech republic
+tax id (di): 852724959642
+phone: +420 619151495
+email: billing@example.com
+bill to
+global buyer ltd.
+london
+united kingdom
+financial summary
+subtotal: k 36955.97
+tax (15%): k 5543.4
+total: k 42499.37
+payment terms: net 30
+description
+supply of industrial components as agreed.
+podle eského prava

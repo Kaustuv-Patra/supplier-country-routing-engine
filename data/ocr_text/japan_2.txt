@@ -1,0 +1,38 @@
+
+--- PAGE 1 ---
+INVOICE
+
+Invoice Number: JP-60277
+Invoice Date: 2025-04-28
+Due Date: 2025-05-28
+
+Supplier
+
+Japan Trading Company Limited
+
+123 Business Street
+
+Capital City
+
+Japan
+
+Tax ID (Corporate Number): 560930055648
+Phone: +81 901325519
+
+Email: billing@example.com
+
+Bill To
+
+Global Buyer Ltd.
+London
+
+United Kingdom
+
+Financial Summary
+Subtotal: ¥ 12942.81
+Tax (10%): ¥ 1294.28
+Total: ¥ 14237.09
+Payment Terms: Net 30
+
+Description
+Supply of industrial components as agreed.

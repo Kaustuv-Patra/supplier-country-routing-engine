@@ -1,0 +1,67 @@
+{
+  "invoice_metadata": {
+    "invoice_id": "5cbe3967-68c1-4bf2-8849-12ad029b392a",
+    "invoice_number": "AE-83526",
+    "invoice_date": "2024-10-12",
+    "due_date": "2024-11-11",
+    "document_language": "en"
+  },
+  "supplier": {
+    "name": "United Arab Emirates Trading Co.",
+    "legal_name": "United Arab Emirates Trading Company Limited",
+    "country": "United Arab Emirates",
+    "country_code": "AE",
+    "address": {
+      "line_1": "123 Business Street",
+      "line_2": "",
+      "city": "Capital City",
+      "state_province": "",
+      "postal_code": "000000"
+    },
+    "tax_id": {
+      "value": "846009235805",
+      "type": "TRN"
+    },
+    "phone": "+971 978779150",
+    "email": "billing@example.com",
+    "website": "www.example.com"
+  },
+  "buyer": {
+    "name": "Global Buyer Ltd.",
+    "country": "United Kingdom",
+    "address": {
+      "city": "London",
+      "postal_code": "SW1A 1AA"
+    }
+  },
+  "financials": {
+    "currency_code": "AED",
+    "currency_symbol": "د.إ",
+    "subtotal": 29130.9,
+    "tax_rate": 0.18,
+    "tax_amount": 5243.56,
+    "total_amount": 34374.46,
+    "payment_terms": "Net 30"
+  },
+  "banking": {
+    "bank_name": "International Bank",
+    "account_number": "677980148875",
+    "swift_bic": "INTLXXXX"
+  },
+  "text_blocks": {
+    "line_items_text": "Supply of industrial components as agreed.",
+    "legal_footer_text": "Subject to UAE law",
+    "compliance_text": "Goods comply with applicable regulations."
+  },
+  "variation_controls": {
+    "omit_fields": [],
+    "ocr_noise_level": "high",
+    "language_mix": false,
+    "ambiguous_currency": true,
+    "date_format": "YYYY-MM-DD"
+  },
+  "ground_truth": {
+    "supplier_country": "United Arab Emirates",
+    "route": "B"
+  }
+}

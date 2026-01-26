@@ -1,0 +1,39 @@
+
+--- PAGE 1 ---
+INVOICE
+
+Invoice Number: MX-40595
+Invoice Date: 2025-12-20
+Due Date: 2026-01-19
+
+Supplier
+
+Mexico Trading Company Limited
+123 Business Street
+
+Capital City
+
+Mexico
+
+Tax ID (RFC): 291740976567
+Phone: +52 945923902
+
+Email: billing@example.com
+
+Bill To
+
+Global Buyer Ltd.
+London
+
+United Kingdom
+
+Financial Summary
+Subtotal: $ 43120.73
+Tax (5%): $ 2156.04
+Total: $ 45276.77
+Payment Terms: Net 30
+
+Description
+Supply of industrial components as agreed.
+
+Conforme a la ley mexicana

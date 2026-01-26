@@ -1,0 +1,39 @@
+
+--- PAGE 1 ---
+INVOICE
+
+Invoice Number: AU-56090
+Invoice Date: 2024-02-22
+Due Date: 2024-03-23
+
+Supplier
+
+Australia Trading Company Limited
+123 Business Street
+
+Capital City
+
+Australia
+
+Tax ID (ABN): 631815153549
+Phone: +61 644830077
+
+Email: billing@example.com
+
+Bill To
+
+Global Buyer Ltd.
+London
+
+United Kingdom
+
+Financial Summary
+Subtotal: $ 48451.53
+Tax (15%): $ 7267.73
+Total: $ 55719.26
+Payment Terms: Net 30
+
+Description
+Supply of industrial components as agreed.
+
+Governed by Australian law

@@ -1,0 +1,39 @@
+
+--- PAGE 1 ---
+INVOICE
+
+Invoice Number: PL-23356
+Invoice Date: 2024-03-18
+Due Date: 2024-04-17
+
+Supplier
+
+Poland Trading Company Limited
+123 Business Street
+
+Capital City
+
+Poland
+
+Tax ID (NIP): 849112978448
+Phone: +48 423821937
+
+Email: billing@example.com
+
+Bill To
+
+Global Buyer Ltd.
+London
+
+United Kingdom
+
+Financial Summary
+Subtotal: z 30012.8
+Tax (10%): z 3001.28
+Total: z 33014.08
+Payment Terms: Net 30
+
+Description
+Supply of industrial components as agreed.
+
+Zgodnie z prawem polskim

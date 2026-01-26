@@ -1,0 +1,69 @@
+{
+  "invoice_metadata": {
+    "invoice_id": "f4654185-0362-418e-ab30-31dfb93064b5",
+    "invoice_number": "IT-57739",
+    "invoice_date": "2025-12-26",
+    "due_date": "2026-01-25",
+    "document_language": "en"
+  },
+  "supplier": {
+    "name": "Italy Trading Co.",
+    "legal_name": "Italy Trading Company Limited",
+    "country": "Italy",
+    "country_code": "IT",
+    "address": {
+      "line_1": "123 Business Street",
+      "line_2": "",
+      "city": "Capital City",
+      "state_province": "",
+      "postal_code": "000000"
+    },
+    "tax_id": {
+      "value": "74876852259",
+      "type": "Partita IVA"
+    },
+    "phone": "+39 813219781",
+    "email": "billing@example.com",
+    "website": "www.example.com"
+  },
+  "buyer": {
+    "name": "Global Buyer Ltd.",
+    "country": "United Kingdom",
+    "address": {
+      "city": "London",
+      "postal_code": "SW1A 1AA"
+    }
+  },
+  "financials": {
+    "currency_code": "EUR",
+    "currency_symbol": "€",
+    "subtotal": 22366.82,
+    "tax_rate": 0.1,
+    "tax_amount": 2236.68,
+    "total_amount": 24603.5,
+    "payment_terms": "Net 30"
+  },
+  "banking": {
+    "bank_name": "International Bank",
+    "account_number": "365731933573",
+    "swift_bic": "INTLXXXX"
+  },
+  "text_blocks": {
+    "line_items_text": "Supply of industrial components as agreed.",
+    "legal_footer_text": "Ai sensi della legge italiana",
+    "compliance_text": "Goods comply with applicable regulations."
+  },
+  "variation_controls": {
+    "omit_fields": [
+      "supplier.phone"
+    ],
+    "ocr_noise_level": "low",
+    "language_mix": false,
+    "ambiguous_currency": false,
+    "date_format": "DD-MM-YYYY"
+  },
+  "ground_truth": {
+    "supplier_country": "Italy",
+    "route": "B"
+  }
+}

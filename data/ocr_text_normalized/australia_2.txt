@@ -1,0 +1,25 @@
+--- page 1 ---
+invoice
+invoice number: au-95814
+invoice date: 2024-04-11
+due date: 2024-05-11
+supplier
+australia trading company limited
+123 business street
+capital city
+australia
+tax id (abn): 964878340071
+phone: +61 925667446
+email: billing@example.com
+bill to
+global buyer ltd.
+london
+united kingdom
+financial summary
+subtotal: $ 39861.71
+tax (5%): $ 1993.09
+total: $ 41854.8
+payment terms: net 30
+description
+supply of industrial components as agreed.
+governed by australian law

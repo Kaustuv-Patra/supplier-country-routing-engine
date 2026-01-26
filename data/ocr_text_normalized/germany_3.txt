@@ -1,0 +1,25 @@
+--- page 1 ---
+invoice
+invoice number: de-17944
+invoice date: 2025-11-20
+due date: 2025-12-20
+supplier
+germany trading company limited
+123 business street
+capital city
+germany
+tax id (ust-idnr): 800603162298
+phone: +49 464323393
+email: billing@example.com
+bill to
+global buyer ltd.
+london
+united kingdom
+financial summary
+subtotal: € 33019.32
+tax (5%): € 1650.97
+total: € 34670.29
+payment terms: net 30
+description
+supply of industrial components as agreed.
+gemak deutschem recht

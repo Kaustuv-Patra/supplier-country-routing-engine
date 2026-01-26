@@ -1,0 +1,25 @@
+--- page 1 ---
+invoice
+invoice number: br-23176
+invoice date: 2025-05-10
+due date: 2025-06-09
+supplier
+brazil trading company limited
+123 business street
+capital city
+brazil
+tax id (cnpj): 214039509095
+phone: +55 418092217
+email: billing@example.com
+bill to
+global buyer ltd.
+london
+united kingdom
+financial summary
+subtotal: r$ 14548.48
+tax (15%): r$ 2182.27
+total: r$ 16730.75
+payment terms: net 30
+description
+supply of industrial components as agreed.
+conforme legislagao brasileira

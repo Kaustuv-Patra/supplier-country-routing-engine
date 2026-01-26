@@ -1,0 +1,69 @@
+{
+  "invoice_metadata": {
+    "invoice_id": "75e899bf-62cb-4f7d-8042-f827198639f6",
+    "invoice_number": "ID-94109",
+    "invoice_date": "2025-04-10",
+    "due_date": "2025-05-10",
+    "document_language": "en"
+  },
+  "supplier": {
+    "name": "Indonesia Trading Co.",
+    "legal_name": "Indonesia Trading Company Limited",
+    "country": "Indonesia",
+    "country_code": "ID",
+    "address": {
+      "line_1": "123 Business Street",
+      "line_2": "",
+      "city": "Capital City",
+      "state_province": "",
+      "postal_code": "000000"
+    },
+    "tax_id": {
+      "value": "655591630158",
+      "type": "NPWP"
+    },
+    "phone": "+62 122932394",
+    "email": "billing@example.com",
+    "website": "www.example.com"
+  },
+  "buyer": {
+    "name": "Global Buyer Ltd.",
+    "country": "United Kingdom",
+    "address": {
+      "city": "London",
+      "postal_code": "SW1A 1AA"
+    }
+  },
+  "financials": {
+    "currency_code": "IDR",
+    "currency_symbol": "Rp",
+    "subtotal": 5492.0,
+    "tax_rate": 0.1,
+    "tax_amount": 549.2,
+    "total_amount": 6041.2,
+    "payment_terms": "Net 30"
+  },
+  "banking": {
+    "bank_name": "International Bank",
+    "account_number": "864505659547",
+    "swift_bic": "INTLXXXX"
+  },
+  "text_blocks": {
+    "line_items_text": "Supply of industrial components as agreed.",
+    "legal_footer_text": "Sesuai hukum Indonesia",
+    "compliance_text": "Goods comply with applicable regulations."
+  },
+  "variation_controls": {
+    "omit_fields": [
+      "banking.swift_bic"
+    ],
+    "ocr_noise_level": "low",
+    "language_mix": true,
+    "ambiguous_currency": true,
+    "date_format": "YYYY-MM-DD"
+  },
+  "ground_truth": {
+    "supplier_country": "Indonesia",
+    "route": "B"
+  }
+}

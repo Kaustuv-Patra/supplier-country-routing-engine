@@ -1,0 +1,38 @@
+
+--- PAGE 1 ---
+INVOICE
+
+Invoice Number: CN-79352
+Invoice Date: 2025-01-29
+Due Date: 2025-02-28
+
+Supplier
+
+China Trading Company Limited
+
+123 Business Street
+
+Capital City
+
+China
+
+Tax ID (Unified Social Credit Code): 947278892251
+Phone: +86 112327652
+
+Email: billing@example.com
+
+Bill To
+
+Global Buyer Ltd.
+London
+
+United Kingdom
+
+Financial Summary
+Subtotal: ¥ 19699.35
+Tax (18%): ¥ 3545.88
+Total: ¥ 23245.23
+Payment Terms: Net 30
+
+Description
+Supply of industrial components as agreed.

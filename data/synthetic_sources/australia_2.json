@@ -1,0 +1,67 @@
+{
+  "invoice_metadata": {
+    "invoice_id": "7faf8ca2-1288-45b2-9278-f7612e9e8de3",
+    "invoice_number": "AU-95814",
+    "invoice_date": "2024-04-11",
+    "due_date": "2024-05-11",
+    "document_language": "en"
+  },
+  "supplier": {
+    "name": "Australia Trading Co.",
+    "legal_name": "Australia Trading Company Limited",
+    "country": "Australia",
+    "country_code": "AU",
+    "address": {
+      "line_1": "123 Business Street",
+      "line_2": "",
+      "city": "Capital City",
+      "state_province": "",
+      "postal_code": "000000"
+    },
+    "tax_id": {
+      "value": "964878340071",
+      "type": "ABN"
+    },
+    "phone": "+61 925667446",
+    "email": "billing@example.com",
+    "website": "www.example.com"
+  },
+  "buyer": {
+    "name": "Global Buyer Ltd.",
+    "country": "United Kingdom",
+    "address": {
+      "city": "London",
+      "postal_code": "SW1A 1AA"
+    }
+  },
+  "financials": {
+    "currency_code": "AUD",
+    "currency_symbol": "$",
+    "subtotal": 39861.71,
+    "tax_rate": 0.05,
+    "tax_amount": 1993.09,
+    "total_amount": 41854.8,
+    "payment_terms": "Net 30"
+  },
+  "banking": {
+    "bank_name": "International Bank",
+    "account_number": "793641949246",
+    "swift_bic": "INTLXXXX"
+  },
+  "text_blocks": {
+    "line_items_text": "Supply of industrial components as agreed.",
+    "legal_footer_text": "Governed by Australian law",
+    "compliance_text": "Goods comply with applicable regulations."
+  },
+  "variation_controls": {
+    "omit_fields": [],
+    "ocr_noise_level": "medium",
+    "language_mix": false,
+    "ambiguous_currency": true,
+    "date_format": "DD-MM-YYYY"
+  },
+  "ground_truth": {
+    "supplier_country": "Australia",
+    "route": "B"
+  }
+}

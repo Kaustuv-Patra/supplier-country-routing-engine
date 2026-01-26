@@ -1,0 +1,40 @@
+
+--- PAGE 1 ---
+INVOICE
+
+Invoice Number: CZ-48566
+Invoice Date: 2025-04-03
+Due Date: 2025-05-03
+
+Supplier
+
+Czech Republic Trading Company Limited
+123 Business Street
+
+Capital City
+
+Czech Republic
+
+Tax ID (DI): 443343380796
+
+Phone: +420 842800803
+
+Email: billing@example.com
+
+Bill To
+
+Global Buyer Ltd.
+London
+
+United Kingdom
+
+Financial Summary
+Subtotal: K 39853.71
+Tax (5%): K 1992.69
+Total: K 41846.4
+Payment Terms: Net 30
+
+Description
+Supply of industrial components as agreed.
+
+Podle eského prava

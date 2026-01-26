@@ -1,0 +1,25 @@
+--- page 1 ---
+invoice
+invoice number: es-22240
+invoice date: 2024-10-17
+due date: 2024-11-16
+supplier
+spain trading company limited
+123 business street
+capital city
+spain
+tax id (cif): 260934151492
+phone: +34 822408848
+email: billing@example.com
+bill to
+global buyer ltd.
+london
+united kingdom
+financial summary
+subtotal: € 26257.15
+tax (15%): € 3938.57
+total: € 30195.72
+payment terms: net 30
+description
+supply of industrial components as agreed.
+conforme a la ley espafola
