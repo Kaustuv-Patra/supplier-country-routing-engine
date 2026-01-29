@@ -6,6 +6,7 @@ import torch
 import torch.nn.functional as F
 from fastapi import FastAPI, UploadFile, File
 from fastapi.responses import JSONResponse
+from fastapi.middleware.cors import CORSMiddleware
 
 import pytesseract
 from pdf2image import convert_from_bytes
@@ -22,6 +23,26 @@ from src.routing.api import router as routing_router
 # =========================
 
 app = FastAPI(title="Supplier Country Classification & Routing Engine")
+
+# =========================
+# CORS (CRITICAL – MUST BE BEFORE ROUTERS)
+# =========================
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=[
+        "http://localhost:5173",
+        "http://127.0.0.1:5173"
+    ],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+# =========================
+# Routers
+# =========================
+
 app.include_router(routing_router)
 
 # =========================
