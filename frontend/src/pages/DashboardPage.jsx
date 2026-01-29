@@ -1,59 +1,63 @@
-/**
- * DashboardPage.jsx
- *
- * Top-level dashboard page.
- * Fetches routing decisions and renders raw output (for now).
- */
-
 import { useEffect, useState } from "react";
-import {
-  loadDecisions,
-  getDecisionsState
-} from "../state/decisionsStore";
+import { loadDecisions, getDecisionsState } from "../state/decisionsStore";
+
+import CountryChart from "../dashboards/CountryChart";
+import RegionChart from "../dashboards/RegionChart";
+import TransportChart from "../dashboards/TransportChart";
+import ConfidenceChart from "../dashboards/ConfidenceChart";
+import RoutingCodeChart from "../dashboards/RoutingCodeChart";
+import ConfidenceSplitChart from "../dashboards/ConfidenceSplitChart";
+
+import "./DashboardPage.css";
 
 export default function DashboardPage() {
-   console.count("DashboardPage render");
- 
   const [, forceRender] = useState(0);
+  const [showRaw, setShowRaw] = useState(false);
 
- useEffect(() => {
+  useEffect(() => {
     async function init() {
       await loadDecisions();
-     forceRender((x) => x + 1);
+      forceRender((x) => x + 1);
     }
-   init();
- }, []);
+    init();
+  }, []);
 
   const { loading, error, meta, decisions } = getDecisionsState();
 
-  if (loading) {
-    return <div>Loading decisions...</div>;
-  }
-
-  if (error) {
-    return <div style={{ color: "red" }}>Error: {error}</div>;
-  }
+  if (loading) return <div style={{ padding: "16px" }}>Loading...</div>;
+  if (error) return <div style={{ color: "red" }}>Error: {error}</div>;
 
   return (
-    <div style={{ padding: "16px" }}>
+    <div style={{ padding: "24px" }}>
       <h2>Routing Decisions Dashboard</h2>
 
-      {meta && (
-        <p>
-          Source: <b>{meta.source}</b> | Count: <b>{meta.count}</b>
-        </p>
-      )}
+      <p>
+        Source: <b>{meta.source}</b> | Count: <b>{meta.count}</b>
+      </p>
 
-      <pre
-        style={{
-          background: "#f5f5f5",
-          padding: "12px",
-          maxHeight: "400px",
-          overflow: "auto"
-        }}
-      >
-        {JSON.stringify(decisions, null, 2)}
-      </pre>
+      <div className="dashboard-grid">
+        {/* Row 1 */}
+        <div className="chart-card"><CountryChart decisions={decisions} /></div>
+        <div className="chart-card"><RegionChart decisions={decisions} /></div>
+        <div className="chart-card"><TransportChart decisions={decisions} /></div>
+
+        {/* Row 2 */}
+        <div className="chart-card"><ConfidenceChart decisions={decisions} /></div>
+        <div className="chart-card"><RoutingCodeChart decisions={decisions} /></div>
+        <div className="chart-card"><ConfidenceSplitChart decisions={decisions} /></div>
+      </div>
+
+      <div style={{ marginTop: "32px" }}>
+        <button onClick={() => setShowRaw(!showRaw)}>
+          {showRaw ? "Hide Raw Decisions" : "Show Raw Decisions"}
+        </button>
+
+        {showRaw && (
+          <pre style={{ maxHeight: "300px", overflow: "auto" }}>
+            {JSON.stringify(decisions, null, 2)}
+          </pre>
+        )}
+      </div>
     </div>
   );
 }
