@@ -15,11 +15,18 @@ from transformers import (
     DistilBertForSequenceClassification
 )
 
+from src.routing.api import router as routing_router
+
 # =========================
-# App & Paths
+# App Initialization (ONLY ONCE)
 # =========================
 
 app = FastAPI(title="Supplier Country Classification & Routing Engine")
+app.include_router(routing_router)
+
+# =========================
+# App & Paths
+# =========================
 
 MODEL_DIR = Path("models/country_classifier")
 LABEL_MAPPING_FILE = Path("data/training/label_mapping.json")
@@ -120,9 +127,9 @@ async def route_invoice(file: UploadFile = File(...)):
 
     decision = {
         "invoice_id": invoice_id,
-        "predicted_country": predicted_country,
+        "supplier_country": predicted_country,
         "confidence": conf_value,
-        "region": region,
+        "continent": region,
         "primary_transport": primary,
         "secondary_transport": secondary,
         "routing_code": f"{region}-{primary}"
