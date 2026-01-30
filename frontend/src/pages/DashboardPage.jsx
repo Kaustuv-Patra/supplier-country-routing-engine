@@ -9,6 +9,8 @@ import ConfidenceChart from "../dashboards/ConfidenceChart";
 import RoutingCodeChart from "../dashboards/RoutingCodeChart";
 import ConfidenceSplitChart from "../dashboards/ConfidenceSplitChart";
 
+import FilterChips from "../components/FilterChips";
+
 import "./DashboardPage.css";
 
 export default function DashboardPage() {
@@ -58,14 +60,14 @@ export default function DashboardPage() {
         <b>{filteredDecisions.length}</b>
       </p>
 
-      {/* 🔁 Filter controls */}
+      {/* 🔎 Active filter chips */}
+      <FilterChips />
+
+      {/* 🔁 Global reset */}
       <div style={{ marginBottom: "16px" }}>
         <button
           onClick={handleClearFilters}
-          style={{
-            padding: "6px 12px",
-            cursor: "pointer",
-          }}
+          style={{ padding: "6px 12px", cursor: "pointer" }}
         >
           Clear Filters
         </button>
@@ -73,30 +75,14 @@ export default function DashboardPage() {
 
       <div className="dashboard-grid">
         {/* Row 1 */}
-        <div className="chart-card">
-          <CountryChart decisions={filteredDecisions} />
-        </div>
-
-        <div className="chart-card">
-          <RegionChart decisions={filteredDecisions} />
-        </div>
-
-        <div className="chart-card">
-          <TransportChart decisions={filteredDecisions} />
-        </div>
+        <div className="chart-card"><CountryChart decisions={filteredDecisions} /></div>
+        <div className="chart-card"><RegionChart decisions={filteredDecisions} /></div>
+        <div className="chart-card"><TransportChart decisions={filteredDecisions} /></div>
 
         {/* Row 2 */}
-        <div className="chart-card">
-          <ConfidenceChart decisions={filteredDecisions} />
-        </div>
-
-        <div className="chart-card">
-          <RoutingCodeChart decisions={filteredDecisions} />
-        </div>
-
-        <div className="chart-card">
-          <ConfidenceSplitChart decisions={filteredDecisions} />
-        </div>
+        <div className="chart-card"><ConfidenceChart decisions={filteredDecisions} /></div>
+        <div className="chart-card"><RoutingCodeChart decisions={filteredDecisions} /></div>
+        <div className="chart-card"><ConfidenceSplitChart decisions={filteredDecisions} /></div>
       </div>
 
       <div style={{ marginTop: "32px" }}>
