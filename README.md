@@ -25,7 +25,7 @@ This project demonstrates how OCR and NLP can automate supplier country classifi
 
 ---
 
-### Architecture Overview
+## Architecture Overview
 
 text
 Invoice PDF
@@ -38,7 +38,7 @@ Invoice PDF
 → REST API (FastAPI)
 → Analytics Dashboard (React)
 
-###Key Features
+## Key Features
 - Machine Learning & Backend Capabilities
 - Multiclass supplier country classification covering 22 countries
 - Fine-tuned DistilBERT model trained on invoice text
@@ -49,7 +49,7 @@ Invoice PDF
 - REST API for document upload and inference
 - Reproducible Python environment with pinned dependencies
 
-###Frontend & Analytics Capabilities
+## Frontend & Analytics Capabilities
 - React-based analytics dashboard
 - Visualization of routing decisions and model outputs
 - Analytical views include:
@@ -64,7 +64,7 @@ Invoice PDF
 - Visual filter indicators with individual removal
 - Real-time filtering without additional backend calls
 
-###Tech Stack
+## Tech Stack
 Backend
 - Python 3.9 – stable and widely supported
 - Tesseract OCR – text extraction from invoice PDFs
@@ -73,13 +73,13 @@ Backend
 - FastAPI – REST API framework
 - Uvicorn – ASGI server
 
-###Frontend
+## Frontend
 - React – UI framework
 - Vite – frontend build tooling
 - Apache ECharts – interactive visualizations
 - JavaScript (ES6) – frontend logic
 
-###Dashboard Purpose
+## Dashboard Purpose
 - The dashboard is designed to:
 - Inspect model behavior through confidence distributions
 - Analyze routing outcomes across regions and transport modes
@@ -87,3 +87,4 @@ Backend
 - Maintain strict separation from backend logic
 
 ---
+
