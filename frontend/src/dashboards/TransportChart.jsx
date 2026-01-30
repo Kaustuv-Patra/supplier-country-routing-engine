@@ -1,42 +1,20 @@
 import React from "react";
 import ReactECharts from "echarts-for-react";
+import { setFilter } from "../state/filtersStore";
 
-/**
- * TransportChart
- *
- * Displays distribution of transport modes (Primary vs Secondary)
- * with proper spacing for title, legend, and bars.
- */
 export default function TransportChart({ decisions }) {
   if (!decisions || decisions.length === 0) {
-    return <p>No data available for transport distribution.</p>;
+    return <p>No data available.</p>;
   }
 
-  const primaryCounts = {};
-  const secondaryCounts = {};
-
-  decisions.forEach((decision) => {
-    const primary = decision.primary_transport;
-    const secondary = decision.secondary_transport;
-
-    if (primary) {
-      primaryCounts[primary] = (primaryCounts[primary] || 0) + 1;
-    }
-
-    if (secondary) {
-      secondaryCounts[secondary] = (secondaryCounts[secondary] || 0) + 1;
-    }
+  const counts = {};
+  decisions.forEach((d) => {
+    const t = d.primary_transport || "UNKNOWN";
+    counts[t] = (counts[t] || 0) + 1;
   });
 
-  const transportModes = Array.from(
-    new Set([
-      ...Object.keys(primaryCounts),
-      ...Object.keys(secondaryCounts),
-    ])
-  );
-
-  const primaryData = transportModes.map((mode) => primaryCounts[mode] || 0);
-  const secondaryData = transportModes.map((mode) => secondaryCounts[mode] || 0);
+  const transports = Object.keys(counts);
+  const values = Object.values(counts);
 
   const option = {
     title: {
@@ -48,24 +26,19 @@ export default function TransportChart({ decisions }) {
       trigger: "axis",
       axisPointer: { type: "shadow" },
     },
-    legend: {
-      top: 40,
-      left: "center",
-      orient: "horizontal",
-    },
     grid: {
-      top: 90,
-      left: "8%",
+      top: 60,
+      left: "12%",
       right: "8%",
-      bottom: "10%",
+      bottom: 80,
       containLabel: true,
     },
     xAxis: {
       type: "category",
-      data: transportModes,
-      axisLabel: {
-        rotate: 0,
-      },
+      data: transports,
+      name: "Transport Mode",
+      nameLocation: "middle",
+      nameGap: 60,
     },
     yAxis: {
       type: "value",
@@ -73,20 +46,24 @@ export default function TransportChart({ decisions }) {
     },
     series: [
       {
-        name: "Primary Transport",
         type: "bar",
-        data: primaryData,
-        barGap: "20%",
-        emphasis: { focus: "series" },
-      },
-      {
-        name: "Secondary Transport",
-        type: "bar",
-        data: secondaryData,
-        emphasis: { focus: "series" },
+        data: values,
       },
     ],
   };
 
-  return <ReactECharts option={option} style={{ height: "400px", width: "100%" }} />;
+  const onEvents = {
+    click: (params) => {
+      setFilter("primary_transport", params.name);
+      window.dispatchEvent(new Event("filters-changed"));
+    },
+  };
+
+  return (
+    <ReactECharts
+      option={option}
+      onEvents={onEvents}
+      style={{ height: "100%", width: "100%" }}
+    />
+  );
 }

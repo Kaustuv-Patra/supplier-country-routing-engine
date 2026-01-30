@@ -1,65 +1,70 @@
 import React from "react";
 import ReactECharts from "echarts-for-react";
+import { setFilter } from "../state/filtersStore";
 
-/**
- * RegionChart
- *
- * Displays region / continent distribution (APAC / EMEA / AMER).
- */
 export default function RegionChart({ decisions }) {
   if (!decisions || decisions.length === 0) {
-    return <p>No data available for region distribution.</p>;
+    return <p>No data available.</p>;
   }
 
-  const regionCounts = {
-    APAC: 0,
-    EMEA: 0,
-    AMER: 0,
-  };
-
-  decisions.forEach((decision) => {
-    const region = decision.region;
-    if (regionCounts[region] !== undefined) {
-      regionCounts[region] += 1;
-    }
+  const counts = {};
+  decisions.forEach((d) => {
+    const r = d.region || "UNKNOWN";
+    counts[r] = (counts[r] || 0) + 1;
   });
 
-  const data = Object.entries(regionCounts)
-    .filter(([, count]) => count > 0)
-    .map(([region, count]) => ({
-      name: region,
-      value: count,
-    }));
+  const regions = Object.keys(counts);
+  const values = Object.values(counts);
 
   const option = {
     title: {
-      text: "Region / Continent Distribution",
+      text: "Region Distribution",
       left: "center",
+      top: 10,
     },
     tooltip: {
-      trigger: "item",
-      formatter: "{b}: {c} invoices ({d}%)",
+      trigger: "axis",
+      axisPointer: { type: "shadow" },
     },
-    legend: {
-      orient: "horizontal",
-      bottom: 0,
+    grid: {
+      top: 60,
+      left: "12%",
+      right: "8%",
+      bottom: 80,
+      containLabel: true,
+    },
+    xAxis: {
+      type: "category",
+      data: regions,
+      axisLabel: { rotate: 30 },
+      name: "Region",
+      nameLocation: "middle",
+      nameGap: 60,
+    },
+    yAxis: {
+      type: "value",
+      name: "Invoices",
     },
     series: [
       {
-        name: "Invoices",
-        type: "pie",
-        radius: ["40%", "70%"],
-        data,
-        emphasis: {
-          itemStyle: {
-            shadowBlur: 10,
-            shadowOffsetX: 0,
-            shadowColor: "rgba(0, 0, 0, 0.4)",
-          },
-        },
+        type: "bar",
+        data: values,
       },
     ],
   };
 
-  return <ReactECharts option={option} style={{ height: "400px", width: "100%" }} />;
+  const onEvents = {
+    click: (params) => {
+      setFilter("region", params.name);
+      window.dispatchEvent(new Event("filters-changed"));
+    },
+  };
+
+  return (
+    <ReactECharts
+      option={option}
+      onEvents={onEvents}
+      style={{ height: "100%", width: "100%" }}
+    />
+  );
 }

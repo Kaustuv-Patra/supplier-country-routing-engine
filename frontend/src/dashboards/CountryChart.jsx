@@ -1,39 +1,41 @@
 import React from "react";
 import ReactECharts from "echarts-for-react";
+import { setFilter } from "../state/filtersStore";
 
 /**
  * CountryChart
  *
- * Displays supplier country distribution using Apache ECharts.
+ * Click a country bar to filter the dashboard by country.
  */
 export default function CountryChart({ decisions }) {
   if (!decisions || decisions.length === 0) {
-    return <p>No data available for country distribution.</p>;
+    return <p>No data available.</p>;
   }
 
-  const countryCounts = {};
-
-  decisions.forEach((decision) => {
-    const country = decision.predicted_country || "Unknown";
-    countryCounts[country] = (countryCounts[country] || 0) + 1;
+  const counts = {};
+  decisions.forEach((d) => {
+    const c = d.predicted_country || "UNKNOWN";
+    counts[c] = (counts[c] || 0) + 1;
   });
 
-  const countries = Object.keys(countryCounts);
-  const counts = Object.values(countryCounts);
+  const countries = Object.keys(counts);
+  const values = Object.values(counts);
 
   const option = {
     title: {
       text: "Supplier Country Distribution",
       left: "center",
+      top: 10,
     },
     tooltip: {
       trigger: "axis",
       axisPointer: { type: "shadow" },
     },
     grid: {
-      left: "3%",
-      right: "4%",
-      bottom: "10%",
+      top: 60,
+      left: "12%",
+      right: "8%",
+      bottom: 100,
       containLabel: true,
     },
     xAxis: {
@@ -43,6 +45,9 @@ export default function CountryChart({ decisions }) {
         rotate: 45,
         interval: 0,
       },
+      name: "Country",
+      nameLocation: "middle",
+      nameGap: 70,
     },
     yAxis: {
       type: "value",
@@ -50,15 +55,26 @@ export default function CountryChart({ decisions }) {
     },
     series: [
       {
-        name: "Invoices",
         type: "bar",
-        data: counts,
-        emphasis: {
-          focus: "series",
-        },
+        data: values,
+        emphasis: { focus: "series" },
       },
     ],
   };
 
-  return <ReactECharts option={option} style={{ height: "400px", width: "100%" }} />;
+  const onEvents = {
+    click: (params) => {
+      setFilter("country", params.name);
+      // force React re-render via store update side effect
+      window.dispatchEvent(new Event("filters-changed"));
+    },
+  };
+
+  return (
+    <ReactECharts
+      option={option}
+      onEvents={onEvents}
+      style={{ height: "100%", width: "100%" }}
+    />
+  );
 }

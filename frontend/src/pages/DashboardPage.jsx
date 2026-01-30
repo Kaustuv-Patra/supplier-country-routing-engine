@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { loadDecisions, getDecisionsState } from "../state/decisionsStore";
+import { applyFilters, clearFilters } from "../state/filtersStore";
 
 import CountryChart from "../dashboards/CountryChart";
 import RegionChart from "../dashboards/RegionChart";
@@ -20,12 +21,17 @@ export default function DashboardPage() {
       forceRender((x) => x + 1);
     }
     init();
+
+    const handler = () => forceRender((x) => x + 1);
+    window.addEventListener("filters-changed", handler);
+    return () => window.removeEventListener("filters-changed", handler);
   }, []);
 
   const state = getDecisionsState();
   const { loading, error, meta, decisions } = state;
 
-  // 🔒 HARD GUARD — prevents crash on first render
+  const filteredDecisions = applyFilters(decisions);
+
   if (loading || !meta) {
     return <div style={{ padding: "16px" }}>Loading decisions...</div>;
   }
@@ -38,39 +44,58 @@ export default function DashboardPage() {
     );
   }
 
+  const handleClearFilters = () => {
+    clearFilters();
+    window.dispatchEvent(new Event("filters-changed"));
+  };
+
   return (
     <div style={{ padding: "24px" }}>
       <h2>Routing Decisions Dashboard</h2>
 
       <p>
-        Source: <b>{meta.source}</b> | Count: <b>{meta.count}</b>
+        Source: <b>{meta.source}</b> | Count:{" "}
+        <b>{filteredDecisions.length}</b>
       </p>
+
+      {/* 🔁 Filter controls */}
+      <div style={{ marginBottom: "16px" }}>
+        <button
+          onClick={handleClearFilters}
+          style={{
+            padding: "6px 12px",
+            cursor: "pointer",
+          }}
+        >
+          Clear Filters
+        </button>
+      </div>
 
       <div className="dashboard-grid">
         {/* Row 1 */}
         <div className="chart-card">
-          <CountryChart decisions={decisions} />
+          <CountryChart decisions={filteredDecisions} />
         </div>
 
         <div className="chart-card">
-          <RegionChart decisions={decisions} />
+          <RegionChart decisions={filteredDecisions} />
         </div>
 
         <div className="chart-card">
-          <TransportChart decisions={decisions} />
+          <TransportChart decisions={filteredDecisions} />
         </div>
 
         {/* Row 2 */}
         <div className="chart-card">
-          <ConfidenceChart decisions={decisions} />
+          <ConfidenceChart decisions={filteredDecisions} />
         </div>
 
         <div className="chart-card">
-          <RoutingCodeChart decisions={decisions} />
+          <RoutingCodeChart decisions={filteredDecisions} />
         </div>
 
         <div className="chart-card">
-          <ConfidenceSplitChart decisions={decisions} />
+          <ConfidenceSplitChart decisions={filteredDecisions} />
         </div>
       </div>
 
@@ -89,7 +114,7 @@ export default function DashboardPage() {
               marginTop: "8px",
             }}
           >
-            {JSON.stringify(decisions, null, 2)}
+            {JSON.stringify(filteredDecisions, null, 2)}
           </pre>
         )}
       </div>

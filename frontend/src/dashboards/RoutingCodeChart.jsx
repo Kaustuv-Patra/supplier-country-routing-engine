@@ -1,26 +1,27 @@
 import React from "react";
 import ReactECharts from "echarts-for-react";
+import { setFilter } from "../state/filtersStore";
 
 /**
  * RoutingCodeChart
  *
- * Displays distribution of routing codes (e.g. APAC-SEA).
- * Axis layout is explicitly tuned to avoid label overlap.
+ * Clicking a routing code applies compound filters:
+ *   - region
+ *   - primary_transport
  */
 export default function RoutingCodeChart({ decisions }) {
   if (!decisions || decisions.length === 0) {
-    return <p>No data available for routing code distribution.</p>;
+    return <p>No data available.</p>;
   }
 
-  const routingCounts = {};
-
+  const counts = {};
   decisions.forEach((d) => {
     const code = d.routing_code || "UNKNOWN";
-    routingCounts[code] = (routingCounts[code] || 0) + 1;
+    counts[code] = (counts[code] || 0) + 1;
   });
 
-  const codes = Object.keys(routingCounts);
-  const counts = Object.values(routingCounts);
+  const codes = Object.keys(counts);
+  const values = Object.values(counts);
 
   const option = {
     title: {
@@ -31,13 +32,12 @@ export default function RoutingCodeChart({ decisions }) {
     tooltip: {
       trigger: "axis",
       axisPointer: { type: "shadow" },
-      formatter: "{b}: {c} invoices",
     },
     grid: {
-      top: 70,
+      top: 60,
       left: "12%",
       right: "8%",
-      bottom: 120, // ⬅ extra space for rotated labels + axis name
+      bottom: 120,
       containLabel: true,
     },
     xAxis: {
@@ -49,7 +49,7 @@ export default function RoutingCodeChart({ decisions }) {
       },
       name: "Routing Code",
       nameLocation: "middle",
-      nameGap: 90, // ⬅ pushes name below labels
+      nameGap: 90,
     },
     yAxis: {
       type: "value",
@@ -58,16 +58,32 @@ export default function RoutingCodeChart({ decisions }) {
     series: [
       {
         type: "bar",
-        data: counts,
-        emphasis: { focus: "series" },
+        data: values,
       },
     ],
+  };
+
+  const onEvents = {
+    click: (params) => {
+      const code = params.name;
+
+      if (!code || !code.includes("-")) return;
+
+      const [region, transport] = code.split("-");
+
+      // Apply compound filters
+      setFilter("region", region);
+      setFilter("primary_transport", transport);
+
+      window.dispatchEvent(new Event("filters-changed"));
+    },
   };
 
   return (
     <ReactECharts
       option={option}
-      style={{ height: "400px", width: "100%" }}
+      onEvents={onEvents}
+      style={{ height: "100%", width: "100%" }}
     />
   );
 }
