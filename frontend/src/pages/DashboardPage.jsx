@@ -22,10 +22,21 @@ export default function DashboardPage() {
     init();
   }, []);
 
-  const { loading, error, meta, decisions } = getDecisionsState();
+  const state = getDecisionsState();
+  const { loading, error, meta, decisions } = state;
 
-  if (loading) return <div style={{ padding: "16px" }}>Loading...</div>;
-  if (error) return <div style={{ color: "red" }}>Error: {error}</div>;
+  // 🔒 HARD GUARD — prevents crash on first render
+  if (loading || !meta) {
+    return <div style={{ padding: "16px" }}>Loading decisions...</div>;
+  }
+
+  if (error) {
+    return (
+      <div style={{ padding: "16px", color: "red" }}>
+        Error: {error}
+      </div>
+    );
+  }
 
   return (
     <div style={{ padding: "24px" }}>
@@ -37,14 +48,30 @@ export default function DashboardPage() {
 
       <div className="dashboard-grid">
         {/* Row 1 */}
-        <div className="chart-card"><CountryChart decisions={decisions} /></div>
-        <div className="chart-card"><RegionChart decisions={decisions} /></div>
-        <div className="chart-card"><TransportChart decisions={decisions} /></div>
+        <div className="chart-card">
+          <CountryChart decisions={decisions} />
+        </div>
+
+        <div className="chart-card">
+          <RegionChart decisions={decisions} />
+        </div>
+
+        <div className="chart-card">
+          <TransportChart decisions={decisions} />
+        </div>
 
         {/* Row 2 */}
-        <div className="chart-card"><ConfidenceChart decisions={decisions} /></div>
-        <div className="chart-card"><RoutingCodeChart decisions={decisions} /></div>
-        <div className="chart-card"><ConfidenceSplitChart decisions={decisions} /></div>
+        <div className="chart-card">
+          <ConfidenceChart decisions={decisions} />
+        </div>
+
+        <div className="chart-card">
+          <RoutingCodeChart decisions={decisions} />
+        </div>
+
+        <div className="chart-card">
+          <ConfidenceSplitChart decisions={decisions} />
+        </div>
       </div>
 
       <div style={{ marginTop: "32px" }}>
@@ -53,7 +80,15 @@ export default function DashboardPage() {
         </button>
 
         {showRaw && (
-          <pre style={{ maxHeight: "300px", overflow: "auto" }}>
+          <pre
+            style={{
+              maxHeight: "300px",
+              overflow: "auto",
+              background: "#f5f5f5",
+              padding: "12px",
+              marginTop: "8px",
+            }}
+          >
             {JSON.stringify(decisions, null, 2)}
           </pre>
         )}
